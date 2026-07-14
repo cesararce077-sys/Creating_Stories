@@ -37,6 +37,9 @@
 hs_err_pid*.log
 replay_pid*.log
 /config/ars_nouveau/search_index/
+# Renderer-generated local preferences (timestamps, shader selection, diagnostics)
+/config/iris.properties
+/config/fabric/indigo-renderer.properties
 # Generated caches and per-install state
 /.cache/
 /.sable/

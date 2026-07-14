@@ -1,0 +1,95 @@
+# Creating Stories — Agent Context
+
+## Project
+
+- This repository is the working CurseForge instance for **Creating Stories**, a Minecraft 1.21.1 NeoForge modpack centered on exploration, staged progression, Create: Aeronautics, and integrated magic.
+- Loader: NeoForge 21.1.235.
+- Treat this directory as both a Git repository and a live game instance. Runtime content can be large or generated.
+- Read the documents under `Design/` when working on progression, interactions, balance, quests, or the roadmap. `Design/` is intentionally ignored by Git because it is private agent/design context.
+
+## Repository Conventions
+
+- Preserve unrelated user changes. The worktree may already be dirty.
+- Do not add runtime worlds, logs, caches, downloaded mod JARs, or the private `Design/` directory to Git.
+- `mods/` is intentionally ignored; release distribution is represented through `manifest.json`, not by committing third-party JARs.
+- Prefer `rg`/`rg --files` for searches and `apply_patch` for hand-authored edits.
+- Before replacing a mod JAR, verify Minecraft/Java is not running. Keep exactly one loadable JAR for each mod ID.
+- Back up replaced local JARs outside `mods/` so NeoForge cannot discover duplicate mod IDs.
+- Do not commit, tag, push, or publish unless the user explicitly asks.
+
+## Unified Magic Design
+
+The pack requires one coherent casting/progression experience across Ars Nouveau and Iron's Spells 'n Spellbooks. Separate spellbooks are not an acceptable final design.
+
+Current integration versions:
+
+- Ars Nouveau 5.12.1
+- Iron's Spells 'n Spellbooks 3.16.2
+- Creating Stories — Unified Magic Integration fork `3.0.2-creatingstories.3`
+
+The installed fork is:
+
+`mods/creating_stories_unified_magic_integration-3.0.2-creatingstories.3.jar`
+
+Its source checkout is:
+
+`development/creating-stories-unified-magic-integration/`
+
+That directory is a nested Git checkout based on upstream branch `port/neoforge-1.21.1`, using local branch `pack-compat-1.21.1`. The important pack fix is in:
+
+`development/creating-stories-unified-magic-integration/src/main/java/com/otectus/arsnspells/spell/irons/ArsCrossProxySpell.java`
+
+Iron's native-wheel proxy casts may provide an empty `MagicData.getPlayerCastingItem()`, with both player hands empty, because the active book lives in Curios slot `spellbook:0`. The fork resolves candidates in this order:
+
+1. Iron's recorded casting item.
+2. Main hand.
+3. Offhand.
+4. `io.redspace.ironsspellbooks.api.util.Utils.getPlayerSpellbookStack(player)`.
+
+Only a candidate carrying the matching Ars proxy payload is accepted. Do not remove the equipped-spellbook fallback.
+
+Mana is unified successfully. The redundant Iron's client mana bar is hidden through `config/irons_spellbooks-client.toml` (`manaBarDisplay = "Never"`), leaving one visible mana bar.
+
+## Building the Ars 'n Spells Fork
+
+Minecraft 1.21.1 requires a full Java 21 JDK. CurseForge's `Jre_21` is runtime-only and cannot perform the NeoForge recompile. A project-local Temurin JDK is kept under the fork's ignored `.jdk21/` directory.
+
+From `development/creating-stories-unified-magic-integration` in PowerShell:
+
+```powershell
+$env:JAVA_HOME=(Get-ChildItem .jdk21 -Directory | Select-Object -First 1).FullName
+$env:Path="$env:JAVA_HOME\bin;$env:Path"
+.\gradlew.bat clean test build --console=plain
+```
+
+Expected artifact:
+
+`development/creating-stories-unified-magic-integration/build/libs/creating_stories_unified_magic_integration-3.0.2-creatingstories.3.jar`
+
+When changing the fork, increment the `-creatingstories.N` suffix in its `gradle.properties`, run the complete test/build, verify the artifact metadata/hash, close Minecraft, move the prior installed fork into `development/creating-stories-unified-magic-integration/backups/`, and copy only the new runtime JAR into `mods/`.
+
+## Unified-Casting Regression Test
+
+Use a highly visible Ars spell such as:
+
+`Projectile → Split → Split → Split → Harm`
+
+Bind it to an Iron's spellbook, equip the book in the Iron's/Curios spellbook slot, select the proxy spell using Iron's native wheel, and cast with empty hands. Success requires visible Ars projectiles and actual damage—not merely Iron's sound or hand animation.
+
+Also verify:
+
+- Native Iron's spells still cast.
+- Mana is charged once from the unified pool.
+- Only one mana bar is visible.
+- The spell still works after relogging and after equipping the book again.
+- Both main-hand and offhand books remain safe fallbacks.
+
+## Known Integration Issue
+
+Putting an Ars 'n Spells Loom carrier scroll into Iron's inscription table and clicking Inscribe can crash in Iron's `InscriptionTableScreen.onInscription` because its scroll container is null. Normal progression should use the Ars 'n Spells spellbook-binding ritual, but invalid input must eventually be rejected safely rather than crash. This safety patch remains outstanding unless later work has explicitly resolved and tested it.
+
+## Release and Roadmap
+
+- Current pack version is 0.1.2; verify the current manifest/tag before preparing another release.
+- Roadmap work must start by reading `Design/` and reconciling it with the mods actually present in `manifest.json`/`mods/`.
+- Favor realistic, testable player interactions and balance milestones over broad feature lists.

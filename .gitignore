@@ -1,0 +1,62 @@
+# Minecraft / CurseForge runtime
+/.curseclient
+/minecraftinstance.json
+/user-prefs.json
+/options.txt
+/optionsof.txt
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
+/command_history.txt
+/emi.json
+/ponders_watched.json
+/.qmenu_opened.marker
+
+# Downloaded mods and optional client content
+# Publish a CurseForge/Modrinth manifest instead of redistributing third-party jars.
+/mods/
+/resourcepacks/
+/shaderpacks/
+/downloads/
+/moonlight-global-datapacks/
+
+# Worlds, backups, and player-created local content
+/saves/
+/simplebackups/
+/backups/
+/schematics/
+/screenshots/
+
+# Logs, reports, and JVM/mod debug output
+/logs/
+/crash-reports/
+/.mixin.out/
+/debug/
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Generated caches and per-install state
+/.cache/
+/.sable/
+/cache/
+/data/
+/local/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*~
+
+# Local Codex/agent workspace metadata
+/.agents/
+/.codex/

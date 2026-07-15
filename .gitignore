@@ -40,6 +40,24 @@ replay_pid*.log
 # Renderer-generated local preferences (timestamps, shader selection, diagnostics)
 /config/iris.properties
 /config/fabric/indigo-renderer.properties
+# Generated mod defaults and per-install preferences
+/config/advancementplaques.toml
+/config/createdieselgenerators-client.toml
+/config/createdieselgenerators-common.toml
+/config/createdieselgenerators-server.toml
+/config/enchdesc.json
+/config/fastpaintings-common.toml
+/config/fastsuite.cfg
+/config/ftbessentials.snbt
+/config/ftblibrary-client.snbt
+/config/ftbquests-client.snbt
+/config/ftbteams-server.snbt
+/config/fzzy_config/
+/config/goblintraders-entities.toml
+/config/particle_core_config.toml
+/config/particle_core_disabled_optimizations_v2.json
+/config/recipeessentials.json
+/defaultconfigs/ftbessentials-server.snbt
 # Generated caches and per-install state
 /.cache/
 /.sable/

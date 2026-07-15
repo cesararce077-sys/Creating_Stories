@@ -25,11 +25,11 @@ Current integration versions:
 
 - Ars Nouveau 5.12.1
 - Iron's Spells 'n Spellbooks 3.16.2
-- Creating Stories — Unified Magic Integration fork `3.0.2-creatingstories.3`
+- Creating Stories — Unified Magic Integration fork `3.0.2-creatingstories.4`
 
 The installed fork is:
 
-`mods/creating_stories_unified_magic_integration-3.0.2-creatingstories.3.jar`
+`mods/creating_stories_unified_magic_integration-3.0.2-creatingstories.4.jar`
 
 Its source checkout is:
 
@@ -48,6 +48,8 @@ Iron's native-wheel proxy casts may provide an empty `MagicData.getPlayerCasting
 
 Only a candidate carrying the matching Ars proxy payload is accepted. Do not remove the equipped-spellbook fallback.
 
+The `.4` fork also fixes Spellbook Binding ritual completion. One-shot Ars rituals must call `setFinished()` from `tick()`; otherwise Ars never invokes `onEnd()` and the brazier appears to run forever without binding the valid Loom-created Ars Spell Scroll.
+
 Mana is unified successfully. The redundant Iron's client mana bar is hidden through `config/irons_spellbooks-client.toml` (`manaBarDisplay = "Never"`), leaving one visible mana bar.
 
 ## Building the Ars 'n Spells Fork
@@ -64,7 +66,7 @@ $env:Path="$env:JAVA_HOME\bin;$env:Path"
 
 Expected artifact:
 
-`development/creating-stories-unified-magic-integration/build/libs/creating_stories_unified_magic_integration-3.0.2-creatingstories.3.jar`
+`development/creating-stories-unified-magic-integration/build/libs/creating_stories_unified_magic_integration-3.0.2-creatingstories.4.jar`
 
 When changing the fork, increment the `-creatingstories.N` suffix in its `gradle.properties`, run the complete test/build, verify the artifact metadata/hash, close Minecraft, move the prior installed fork into `development/creating-stories-unified-magic-integration/backups/`, and copy only the new runtime JAR into `mods/`.
 

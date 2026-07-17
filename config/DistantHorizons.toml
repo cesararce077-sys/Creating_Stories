@@ -118,7 +118,7 @@ _version = 4
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 4
+		numberOfThreads = 2
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -126,7 +126,7 @@ _version = 4
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.75"
+		threadRunTimeRatio = "0.5"
 		#
 		# What Java thread priority should DH's primary thread pools run with? 
 		# 
@@ -771,7 +771,7 @@ _version = 4
 				# Note: this is a best effort number. 
 				# The actual render distance may be above or below this number 
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 192
+				lodChunkRenderDistanceRadius = 128
 				#
 				# How should the sides and bottom of grass block LODs render? 
 				# 

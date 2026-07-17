@@ -52,11 +52,14 @@ replay_pid*.log
 /config/ftblibrary-client.snbt
 /config/ftbquests-client.snbt
 /config/ftbteams-server.snbt
+/config/jeed-client.toml
+/config/justenoughbreeding-offsets.json
 /config/fzzy_config/
 /config/goblintraders-entities.toml
 /config/particle_core_config.toml
 /config/particle_core_disabled_optimizations_v2.json
 /config/recipeessentials.json
+/config/sophisticatedcore-common.toml
 /defaultconfigs/ftbessentials-server.snbt
 # Generated caches and per-install state
 /.cache/

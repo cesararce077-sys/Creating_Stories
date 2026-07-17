@@ -52,6 +52,14 @@ The `.4` fork also fixes Spellbook Binding ritual completion. One-shot Ars ritua
 
 Mana is unified successfully. The redundant Iron's client mana bar is hidden through `config/irons_spellbooks-client.toml` (`manaBarDisplay = "Never"`), leaving one visible mana bar.
 
+## Modular Equipment Integration
+
+The pack-owned addon source is in `development/creating-stories-workshop/`. Its installed runtime JAR is kept in `mods/`, while the release copy belongs in `overrides/mods/` because it is not a third-party CurseForge manifest dependency.
+
+Workshop `0.0.9-dev` currently provides hierarchy-safe MIAPI part salvage/replacement, ordinary tool converters, pack-owned zinc/brass/rose-quartz materials, a modular compatibility audit command, and canonical copper crafting. Both Ice and Fire and Create Stuff & Additions copper tools convert to `miapi:metal/copper`, but only Ice and Fire's copper tool recipes remain enabled to prevent ambiguous autocrafting outputs.
+
+Build the addon from `development/creating-stories-workshop` with the Java 21 JDK and Gradle wrapper stored in the unified-magic checkout. Preserve only one loadable Workshop JAR in `mods/`, and back up replaced builds under the addon's ignored `backups/` directory.
+
 ## Building the Ars 'n Spells Fork
 
 Minecraft 1.21.1 requires a full Java 21 JDK. CurseForge's `Jre_21` is runtime-only and cannot perform the NeoForge recompile. A project-local Temurin JDK is kept under the fork's ignored `.jdk21/` directory.

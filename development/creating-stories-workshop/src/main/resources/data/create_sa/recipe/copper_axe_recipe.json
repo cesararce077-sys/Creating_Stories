@@ -1,0 +1,6 @@
+{
+  "neoforge:conditions": [{"type":"neoforge:mod_loaded","modid":"creating_stories_duplicate_copper_recipes"}],
+  "type":"minecraft:crafting_shaped","pattern":["CC","CS"," S"],
+  "key":{"C":{"tag":"c:ingots/copper"},"S":{"tag":"c:rods/wooden"}},
+  "result":{"id":"create_sa:copper_axe","count":1}
+}

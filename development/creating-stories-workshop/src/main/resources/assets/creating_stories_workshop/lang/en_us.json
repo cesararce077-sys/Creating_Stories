@@ -1,0 +1,19 @@
+{
+  "commands.creating_stories_workshop.fusion.player_only": "Fusion must be tested by a player.",
+  "commands.creating_stories_workshop.fusion.need_items": "Hold the persistent modular item in your main hand and the donor modular item in your offhand.",
+  "commands.creating_stories_workshop.fusion.bad_path": "Donor component path '%s' does not exist. Use slash-separated slot IDs, for example blade/attachment.",
+  "commands.creating_stories_workshop.fusion.root_forbidden": "The root module cannot be transferred.",
+  "commands.creating_stories_workshop.fusion.missing_destination": "The persistent item does not have destination slot '%s'.",
+  "commands.creating_stories_workshop.fusion.incompatible": "The donor component %s is not compatible with destination slot '%s'.",
+  "commands.creating_stories_workshop.fusion.same": "That destination already contains the same component tree.",
+  "commands.creating_stories_workshop.fusion.need_levels": "Fusion requires %s levels; you currently have %s.",
+  "commands.creating_stories_workshop.fusion.list_header": "Offhand donor component paths:",
+  "commands.creating_stories_workshop.fusion.preview": "Fusion preview: replace '%s' with %s from the offhand donor. Cost: %s levels. The donor item will be consumed.",
+  "commands.creating_stories_workshop.fusion.success": "Fusion complete: transferred %s into '%s' for %s levels.",
+  "creating_stories_workshop.workbench.use_part": "Install salvaged %s",
+  "creating_stories_workshop.workbench.part_invalid": "The salvaged part is missing or incompatible with this slot.",
+  "creating_stories_workshop.workbench.part_changed": "The selected salvaged part changed before crafting.",
+  "creating_stories_workshop.workbench.levels_required": "Installing a salvaged part requires %s experience levels.",
+  "creating_stories_workshop.workbench.incompatible_children": "This part cannot retain one or more attached components. Detach those components first.",
+  "creating_stories_workshop.salvaged_part_name": "%s %s"
+}

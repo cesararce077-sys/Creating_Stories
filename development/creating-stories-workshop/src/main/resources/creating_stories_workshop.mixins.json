@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.creatingstories.workshop.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CraftActionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

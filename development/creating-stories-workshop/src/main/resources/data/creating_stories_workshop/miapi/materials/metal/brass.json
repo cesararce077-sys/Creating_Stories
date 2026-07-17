@@ -1,0 +1,18 @@
+{
+  "groups": ["metal"],
+  "icon": "create:textures/item/brass_ingot.png",
+  "hardness": 5.2,
+  "density": 3.8,
+  "flexibility": 1.1,
+  "durability": 450,
+  "armor_durability": 18,
+  "enchantability": 14,
+  "toughness": 0,
+  "tier": 3,
+  "color": "E2A93B",
+  "color_palette": {"type": "grayscale_map", "colors": {"24":"3D2509","68":"775018","107":"A97625","150":"D39D35","190":"E8BE59","216":"F3D47C","255":"FFF1B0"}},
+  "textures": ["metallic", "bright"],
+  "mining_speed": 8,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [{"item": "create:brass_ingot", "value": 1.0}]
+}

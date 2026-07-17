@@ -1,0 +1,18 @@
+{
+  "groups": ["metal"],
+  "icon": "create:textures/item/zinc_ingot.png",
+  "hardness": 4.5,
+  "density": 3.2,
+  "flexibility": 1.2,
+  "durability": 250,
+  "armor_durability": 14,
+  "enchantability": 11,
+  "toughness": 0,
+  "tier": 2,
+  "color": "B7C7B1",
+  "color_palette": {"type": "grayscale_map", "colors": {"24":"26302B","68":"56655D","107":"819188","150":"AAB9B0","190":"CAD5CF","216":"E2E9E5","255":"F7FAF8"}},
+  "textures": ["metallic"],
+  "mining_speed": 7,
+  "mining_level": "minecraft:incorrect_for_iron_tool",
+  "items": [{"item": "create:zinc_ingot", "value": 1.0}]
+}

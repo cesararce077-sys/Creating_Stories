@@ -1,0 +1,18 @@
+{
+  "groups": ["crystal"],
+  "icon": "create:textures/item/polished_rose_quartz.png",
+  "hardness": 7.0,
+  "density": 1.2,
+  "flexibility": 0.2,
+  "durability": 1644,
+  "armor_durability": 28,
+  "enchantability": 14,
+  "toughness": 1,
+  "tier": 3,
+  "color": "F29AB2",
+  "color_palette": {"type": "grayscale_map", "colors": {"24":"421C2C","68":"793A51","107":"AA5C76","150":"D8829A","190":"EFA7B9","216":"F8C5D1","255":"FFE9EF"}},
+  "textures": ["bright"],
+  "mining_speed": 9,
+  "mining_level": "minecraft:incorrect_for_diamond_tool",
+  "items": [{"item": "create:polished_rose_quartz", "value": 1.0}]
+}

@@ -1,0 +1,16 @@
+{
+  "jei.relic_loot_viewer.category.relic_sources": "Relic Sources",
+  "jei.relic_loot_viewer.global_chance": "Chance this chest rolls any relic: %s%%",
+  "jei.relic_loot_viewer.relative_weight": "Loot priority: %s (%s; range %s–%s)",
+  "jei.relic_loot_viewer.tables": "Found in: %s",
+  "jei.relic_loot_viewer.dimensions": "Dimensions: %s",
+  "jei.relic_loot_viewer.biomes": "Biomes: %s",
+  "jei.relic_loot_viewer.any": "Any",
+  "jei.relic_loot_viewer.unobtainable": "No positive-weight Relics loot source is configured.",
+  "jei.relic_loot_viewer.probability_note": "Then one eligible relic is selected by loot priority.",
+  "jei.relic_loot_viewer.weight.very_low": "Very low",
+  "jei.relic_loot_viewer.weight.low": "Low",
+  "jei.relic_loot_viewer.weight.typical": "Typical",
+  "jei.relic_loot_viewer.weight.high": "High",
+  "jei.relic_loot_viewer.weight.very_high": "Very high"
+}

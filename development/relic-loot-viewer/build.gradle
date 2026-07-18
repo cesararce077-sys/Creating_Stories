@@ -1,0 +1,59 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+base { archivesName = 'relic_loot_viewer' }
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.parchmentmc.org' }
+}
+
+neoForge {
+    version = neoforge_version
+    parchment {
+        mappingsVersion = parchment_version
+        minecraftVersion = parchment_mc_version
+    }
+    mods {
+        "${mod_id}" { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    compileOnly files('../../mods/relics-1.21.1-0.12.8.jar')
+    compileOnly files('../../mods/OctoLib-NEOFORGE-0.6.2+1.21.jar')
+    compileOnly files('../../mods/jei-1.21.1-neoforge-19.39.0.368.jar')
+
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test { useJUnitPlatform() }
+
+processResources {
+    def props = [
+        mod_id: mod_id, mod_name: mod_name, mod_license: mod_license,
+        mod_version: mod_version, mod_authors: mod_authors,
+        mod_description: mod_description,
+        neoforge_version_range: neoforge_version_range,
+        loader_version_range: loader_version_range
+    ]
+    inputs.properties props
+    filesMatching(['META-INF/neoforge.mods.toml', 'pack.mcmeta']) { expand props }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}

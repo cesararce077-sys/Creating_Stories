@@ -88,3 +88,12 @@ Desktop.ini
 /Design/
 /development/*
 !/development/creating-stories-workshop/
+!/development/relic-loot-viewer/
+/config/ali/
+/config/createornithopterglider-common.toml
+/config/dummmmmmy-client.toml
+/config/dummmmmmy-common.toml
+/config/immersiveenchanting-client.toml
+/config/immersiveenchanting-server.toml
+/config/satchels-client.toml
+/config/satchels-common.toml

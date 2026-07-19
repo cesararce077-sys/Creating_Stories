@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Creating Stories",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "cesararce077-sys",
   "overrides": "overrides",
   "files": [
@@ -73,7 +73,7 @@
       "projectID": 1040076,
       "fileID": 7722420,
       "required": true,
-      "isLocked": false
+      "isLocked": true
     },
     {
       "projectID": 929832,
@@ -1100,6 +1100,24 @@
       "fileID": 7771486,
       "required": true,
       "isLocked": false
+    },
+    {
+      "projectID": 627557,
+      "fileID": 8123287,
+      "required": true,
+      "isLocked": true
+    },
+    {
+      "projectID": 1515693,
+      "fileID": 8067282,
+      "required": true,
+      "isLocked": true
+    },
+    {
+      "projectID": 1015096,
+      "fileID": 5812193,
+      "required": true,
+      "isLocked": true
     }
   ],
   "image": "profileImage/ChatGPT Image Jul 13, 2026, 06_51_00 PM.png"

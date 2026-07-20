@@ -1,0 +1,22 @@
+{
+  "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
+  "enchantments":["minecraft:breach","minecraft:fire_protection","minecraft:smite","minecraft:thorns","minecraft:unbreaking"],
+  "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"cataclysm:archaeology/cursed_pyramid"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"cataclysm:archaeology/cursed_pyramid_necklace"},{"condition":"minecraft:random_chance","chance":0.1}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_gravel_desert_pyramid"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_sand_desert_pyramid"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_sand_labyrinth"},{"condition":"minecraft:random_chance","chance":0.07}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_catacombs_library"},{"condition":"minecraft:random_chance","chance":0.18}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_light_temple_book"},{"condition":"minecraft:random_chance","chance":0.18}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_catacombs_golden"},{"condition":"minecraft:random_chance","chance":0.1}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_light_temple_treasure"},{"condition":"minecraft:random_chance","chance":0.12}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_sculk_sword"},{"condition":"minecraft:random_chance","chance":0.12}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_buried_ruins_sand"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_mesa_ruins"},{"condition":"minecraft:random_chance","chance":0.06}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_mott"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterdeserttemples:chests/pot"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:blocks/treasure_loot_from_loot_vase"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:blocks/treasure_loot_from_green_loot_vase"},{"condition":"minecraft:random_chance","chance":0.05}]}
+  ]}]
+}

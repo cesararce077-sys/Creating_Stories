@@ -1,0 +1,10 @@
+{
+  "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
+  "enchantments":["minecraft:aqua_affinity","minecraft:channeling","minecraft:depth_strider","minecraft:impaling","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:respiration","minecraft:riptide"],
+  "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/ocean_ruin_cold"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/ocean_ruin_warm"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/sussand_underwater"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/chest_underwater"},{"condition":"minecraft:random_chance","chance":0.06}]}
+  ]}]
+}

@@ -1,0 +1,27 @@
+{
+  "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
+  "enchantments":["minecraft:efficiency","minecraft:fortune","minecraft:silk_touch","minecraft:unbreaking"],
+  "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/desert_pyramid"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/desert_well"},{"condition":"minecraft:random_chance","chance":0.03}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/trail_ruins_common"},{"condition":"minecraft:random_chance","chance":0.025}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/trail_ruins_rare"},{"condition":"minecraft:random_chance","chance":0.06}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_gravel_dig_site"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_sand_dig_site"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_gravel_snifferhenge"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:archeology/suspicious_gravel_surface"},{"condition":"minecraft:random_chance","chance":0.03}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"integrated_villages:archeology/suspicious_gravel_surface"},{"condition":"minecraft:random_chance","chance":0.03}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"integrated_villages:archeology/suspicious_sand_oasis_village"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/desert_sand"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/plains_gravel"},{"condition":"minecraft:random_chance","chance":0.04}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/mesa_red_sand"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/taiga_dirt"},{"condition":"minecraft:random_chance","chance":0.05}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_chicken"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_creeper"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_guardian"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_jungle"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_sheep"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_villager"},{"condition":"minecraft:random_chance","chance":0.02}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterarcheology:archeology/fossiliferous_dirt_wolf"},{"condition":"minecraft:random_chance","chance":0.02}]}
+  ]}]
+}

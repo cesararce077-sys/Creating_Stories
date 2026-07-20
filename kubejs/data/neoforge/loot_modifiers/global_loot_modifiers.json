@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "entries": [
+    "creating_stories:ancient_books_arcane",
+    "creating_stories:ancient_books_martial",
+    "creating_stories:ancient_books_workshop",
+    "creating_stories:ancient_books_ranger",
+    "creating_stories:ancient_books_aerial",
+    "creating_stories:ancient_books_maritime",
+    "creating_stories:ancient_books_nether",
+    "creating_stories:ancient_books_death_and_sculk",
+    "creating_stories:ancient_books_archaeology_expedition",
+    "creating_stories:ancient_books_archaeology_maritime",
+    "creating_stories:ancient_books_archaeology_cursed"
+  ]
+}

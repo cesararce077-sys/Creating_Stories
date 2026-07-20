@@ -89,6 +89,7 @@ Desktop.ini
 /development/*
 !/development/creating-stories-workshop/
 !/development/relic-loot-viewer/
+!/development/just-enough-archaeology-integrations/
 /config/ali/
 /config/createornithopterglider-common.toml
 /config/dummmmmmy-client.toml

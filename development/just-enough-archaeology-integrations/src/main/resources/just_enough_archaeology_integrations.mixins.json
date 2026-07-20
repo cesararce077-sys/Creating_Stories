@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.jearchaeologyintegrations.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CompatHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

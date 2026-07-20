@@ -1,0 +1,4 @@
+Creating Stories
+Exploration, staged progression, modular equipment, Create: Aeronautics, and unified magic.
+Updates: https://github.com/cesararce077-sys/Creating_Stories/releases
+Installation and performance guidance: https://github.com/cesararce077-sys/Creating_Stories#readme

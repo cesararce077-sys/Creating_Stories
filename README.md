@@ -5,7 +5,7 @@ Creating Stories is a Minecraft 1.21.1 NeoForge modpack built around exploration
 ## Install with CurseForge
 
 1. Install and open the [CurseForge app](https://www.curseforge.com/download/app).
-2. Download the Creating Stories `0.2.1` profile ZIP. Do not extract it.
+2. Download the Creating Stories `0.2.2` profile ZIP. Do not extract it.
 3. In CurseForge, open **Minecraft** and select **Import**.
 4. Choose **Import Profile .zip**, select the downloaded ZIP, and wait for CurseForge to install the profile.
 5. Open the profile and press **Play**. Allow the first launch several minutes; Minecraft must build caches and load a large mod set.
@@ -57,6 +57,8 @@ These recommendations follow the Distant Horizons team's guidance to reduce CPU 
 
 ## Updating
 
+Creating Stories checks for new pack releases when Minecraft starts. When an update is available, use the provided release link, duplicate or back up the profile, and preserve important worlds before updating. The notification is informational and never downloads or installs a release automatically.
+
 Do not use **Update All** on a working release unless you are testing a copy of the profile. Mod updates can change recipes, registries, world generation, rendering, or integration APIs.
 
 Before updating:
@@ -74,4 +76,4 @@ Before updating:
 - **Low FPS while terrain is already generated:** lower the DH LOD distance or quality settings.
 - **A repeatable crash occurs:** preserve `logs/latest.log` and the newest file under `crash-reports/` before relaunching.
 
-Creating Stories `0.2.1` is tested on NeoForge `21.1.235`.
+Creating Stories `0.2.2` is tested on NeoForge `21.1.235`.

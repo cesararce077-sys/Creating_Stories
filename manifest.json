@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Creating Stories",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "cesararce077-sys",
   "overrides": "overrides",
   "files": [
@@ -1116,6 +1116,12 @@
     {
       "projectID": 1015096,
       "fileID": 5812193,
+      "required": true,
+      "isLocked": true
+    },
+    {
+      "projectID": 847414,
+      "fileID": 6681436,
       "required": true,
       "isLocked": true
     }

@@ -1,0 +1,7 @@
+Creating Stories 0.2.2
+
+- Added themed Immersive Enchanting book acquisition to structure, archaeology, and breakable-container loot.
+- Added readable Just Enough Archaeology integrations for IDAS and Integrated Villages.
+- Improved salvaged MIAPI part and assembly names in the Modular Workbench.
+- Added a clear warning when a salvaged part is identical to the installed part.
+- Added automatic in-game notifications for future Creating Stories releases.

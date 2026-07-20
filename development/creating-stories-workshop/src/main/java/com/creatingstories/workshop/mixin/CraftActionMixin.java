@@ -17,6 +17,7 @@ import smartin.miapi.modules.ItemModule;
 import smartin.miapi.modules.ModuleInstance;
 import smartin.miapi.modules.properties.util.ComponentApplyProperty;
 import smartin.miapi.registries.RegistryInventory;
+import com.creatingstories.workshop.miapi.SalvagedPartNaming;
 
 import java.util.List;
 import java.util.LinkedHashMap;
@@ -54,11 +55,7 @@ public abstract class CraftActionMixin {
         // (for example, a sword blade declares modular_sword). Do not apply it to
         // salvage: the visual-only MIAPI part is the correct detached container.
         Material material = MaterialProperty.getMaterial(removed);
-        Component moduleName = removed.cache().getModuleName();
-        Component detachedName = material == null
-            ? moduleName.copy()
-            : Component.translatable("creating_stories_workshop.salvaged_part_name",
-                material.getTranslation(), moduleName);
+        Component detachedName = SalvagedPartNaming.name(removed, material);
         detached.set(DataComponents.CUSTOM_NAME,
             detachedName.copy().withStyle(style -> style.withItalic(false)));
 

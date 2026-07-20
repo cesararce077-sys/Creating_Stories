@@ -57,6 +57,11 @@ public final class PartInstallCrafting extends ServerReplaceProperty implements 
                 "creating_stories_workshop.workbench.incompatible_children"));
             return false;
         }
+        if (ItemStack.isSameItemSameComponents(old, crafting)) {
+            failreason.accept(Component.translatable(
+                "creating_stories_workshop.workbench.identical_part"));
+            return false;
+        }
         if (player != null && !player.isCreative() && player.experienceLevel < LEVEL_COST) {
             failreason.accept(Component.translatable(
                 "creating_stories_workshop.workbench.levels_required", LEVEL_COST));

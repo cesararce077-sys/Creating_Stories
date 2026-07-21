@@ -60,6 +60,27 @@ Workshop `0.0.9-dev` currently provides hierarchy-safe MIAPI part salvage/replac
 
 Build the addon from `development/creating-stories-workshop` with the Java 21 JDK and Gradle wrapper stored in the unified-magic checkout. Preserve only one loadable Workshop JAR in `mods/`, and back up replaced builds under the addon's ignored `backups/` directory.
 
+## Relic Loot Integration
+
+Relics' native modifier uses one global chest chance before weighted selection. A low item weight does not make a generic relic rare when no themed candidate is present. The pack therefore uses the reusable addon source at `development/relic-loot-curator/`.
+
+Installed integration versions:
+
+- Relic Loot Curator `0.2.0`
+- Relic Loot Viewer `0.3.0`
+
+The curator preserves the normal 20% attempt for matching themed Relics entries. Only when that attempt produces nothing does it roll the 2% Overworld fallback pool from `config/relic_loot_curator.json`. The explicit pool is audited from the `artifacts:artifacts` and `reliquified_artifacts:mimic_loot` item tags, covering Artifacts, base Relics, Reliquified Ars Nouveau, and Reliquified Iron's. The curator also supports tag entries for other packs, but Creating Stories materializes the current 108 IDs so the JEI viewer can show them before a world supplies synchronized item tags. It never adds a fallback when generated loot already contains a configured artifact or any Relics item. Experience Disperser and Roller Skate have their overly broad native sources suppressed; other fallback members retain their themed sources.
+
+`kubejs/data/relics/loot_modifiers/relic_loot.json` disables Relics' native modifier so the curator is the sole full-relic selector. Do not remove that override while the curator is installed. Relic Loot Viewer reads the curator API and displays the actual themed or lucky-fallback route in JEI.
+
+Build the curator before the viewer because the viewer has an optional compile-time integration with its API. Use Java 21 and each project's Gradle wrapper. Runtime JARs belong in both `mods/` and `overrides/mods/`; keep only one loadable version of each mod ID.
+
+## Archaeology Viewer Integration
+
+The pack-owned Just Enough Archaeology addon source is in `development/just-enough-archaeology-integrations/`. Version `0.1.2` adds the missing IDAS and Integrated Villages brush-table mappings and fixes Just Enough Archaeology 1.2.0 retaining generated recipe displays across integrated-server instances.
+
+Do not remove `HelperRecipeCacheMixin`. Just Enough Archaeology's static brushing/sniffing caches can retain Ancient Book item stacks backed by a previous world's enchantment registry. Re-entering or opening another world in the same client then disconnects with `Failed to encode packet 'clientbound/minecraft:update_recipes'` and `Can't find id` for an enchantment holder. The mixin clears each generated cache before the addon rebuilds it for the current server. Runtime JARs belong in both `mods/` and `overrides/mods/`; keep only one loadable version.
+
 ## Building the Ars 'n Spells Fork
 
 Minecraft 1.21.1 requires a full Java 21 JDK. CurseForge's `Jre_21` is runtime-only and cannot perform the NeoForge recompile. A project-local Temurin JDK is kept under the fork's ignored `.jdk21/` directory.
@@ -100,7 +121,7 @@ Putting an Ars 'n Spells Loom carrier scroll into Iron's inscription table and c
 
 ## Release and Roadmap
 
-- Current pack version is 0.3.0; verify the current manifest/tag before preparing another release.
-- Every release must update `config/modpack-update-checker/config.json`, append its entry under `update/meta.json`, and add `update/versions/<version>/changelog.txt`. Keep the raw GitHub update base URL stable so older installations can discover later releases.
+- Current pack version is 0.3.1; verify the current manifest/tag before preparing another release.
+- Every release must update `config/modpack-update-checker/config.json`, set `latestVersion` in `update/meta.json` to the same version, append the release entry under `update/meta.json`, and add `update/versions/<version>/changelog.txt`. Never leave `latestVersion` implicit: Modpack Update Checker's fallback inference can identify an older entry as latest, and its toast treats any unequal version as an available update. Keep the raw GitHub update base URL stable so older installations can discover later releases.
 - Roadmap work must start by reading `Design/` and reconciling it with the mods actually present in `manifest.json`/`mods/`.
 - Favor realistic, testable player interactions and balance milestones over broad feature lists.

@@ -1,0 +1,7 @@
+Creating Stories 0.3.1
+
+- Reworked relic acquisition so themed sources retain their normal priority while eligible Overworld chests receive a separate 2% fallback chance drawn from 108 Relics, Artifacts, and addon items.
+- Expanded the relic JEI integration to show the curator's actual themed and lucky-fallback acquisition routes.
+- Fixed Just Enough Archaeology retaining stale Ancient Book recipes between integrated-server worlds, which could cause an internal-server disconnect on reconnect.
+- Migrated the updated Chloride client configuration while preserving the pack's borderless-window behavior.
+- Fixed the update checker announcing an older pack release by declaring the latest version explicitly.

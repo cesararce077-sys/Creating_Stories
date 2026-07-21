@@ -20,6 +20,7 @@ public final class SourceDescriptionFormatter {
             Map.entry("minecraft:the_end", "The End"),
             Map.entry("minecraft:deep_dark", "Deep Dark"),
             Map.entry("minecraft:chests/ruined_portal", "Ruined Portal chests"),
+            Map.entry("^(?!minecraft:chests/spawn_bonus_chest$)[a-z0-9_.-]+:chests/.+$", "Any generated structure chest (except the bonus chest)"),
             Map.entry("[\\w]+:chests\\/[\\w_\\/]*[\\w]+[\\w_\\/]*", "Any generated chest"),
             Map.entry("[\\w]+:chests\\/[\\w_\\/]*(village|pillage)[\\w_\\/]*", "Village or pillager structure chests"),
             Map.entry("[\\w]+:chests\\/[\\w_\\/]*(bastion|piglin)[\\w_\\/]*", "Bastion or piglin structure chests"),

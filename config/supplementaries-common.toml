@@ -292,7 +292,6 @@
 [building]
 	lapis_bricks = true
 	brittlestone = true
-	brittlestone_bricks = true
 	deepslate_lamp = true
 	end_stone_lamp = true
 	blackstone_lamp = true

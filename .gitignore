@@ -64,6 +64,7 @@ replay_pid*.log
 /config/recipeessentials.json
 /config/resourceful-config-web.json
 /config/modpack-update-checker/modpack-info.txt
+/config/waterconfig.toml
 /malum_extra.json
 /config/sophisticatedcore-common.toml
 /defaultconfigs/ftbessentials-server.snbt
@@ -94,6 +95,7 @@ Desktop.ini
 /development/*
 !/development/creating-stories-workshop/
 !/development/relic-loot-viewer/
+!/development/relic-loot-curator/
 !/development/just-enough-archaeology-integrations/
 /config/ali/
 /config/createornithopterglider-common.toml

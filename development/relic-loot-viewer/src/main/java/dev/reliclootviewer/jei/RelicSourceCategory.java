@@ -77,10 +77,13 @@ public final class RelicSourceCategory implements IRecipeCategory<RelicSourceRec
         }
 
         List<Component> lines = new ArrayList<>();
-        lines.add(Component.translatable(
-                "jei.relic_loot_viewer.global_chance",
-                String.format(Locale.ROOT, "%.1f", recipe.globalChance() * 100.0)
-        ));
+        String chanceKey = switch (recipe.sourceKind()) {
+            case RELICS_DEFAULT -> "jei.relic_loot_viewer.global_chance";
+            case THEMED -> "jei.relic_loot_viewer.themed_chance";
+            case FALLBACK -> "jei.relic_loot_viewer.fallback_chance";
+        };
+        lines.add(Component.translatable(chanceKey,
+                String.format(Locale.ROOT, "%.2f", recipe.rollChance() * 100.0)));
         lines.add(Component.translatable(
                 "jei.relic_loot_viewer.relative_weight",
                 Component.translatable(recipe.weightBand().translationKey()),
@@ -92,7 +95,10 @@ public final class RelicSourceCategory implements IRecipeCategory<RelicSourceRec
                 summarize(recipe.dimensions(), SourceDescriptionFormatter.Kind.DIMENSION)));
         lines.add(Component.translatable("jei.relic_loot_viewer.biomes",
                 summarize(recipe.biomes(), SourceDescriptionFormatter.Kind.BIOME)));
-        lines.add(Component.translatable("jei.relic_loot_viewer.probability_note")
+        String probabilityKey = recipe.sourceKind() == RelicSourceRecipe.SourceKind.FALLBACK
+                ? "jei.relic_loot_viewer.fallback_probability_note"
+                : "jei.relic_loot_viewer.probability_note";
+        lines.add(Component.translatable(probabilityKey)
                 .withStyle(ChatFormatting.DARK_GRAY));
 
         outer:

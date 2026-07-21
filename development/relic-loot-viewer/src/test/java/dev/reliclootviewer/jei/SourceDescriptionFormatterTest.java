@@ -18,6 +18,9 @@ class SourceDescriptionFormatterTest {
         assertEquals("Cold, icy, or snowy biomes", SourceDescriptionFormatter.format(
                 "[\\w]+:.*(fro[sz]|ic[ey]|glac|cold|snow)[\\w_\\/]*",
                 SourceDescriptionFormatter.Kind.BIOME));
+        assertEquals("Any generated structure chest (except the bonus chest)", SourceDescriptionFormatter.format(
+                "^(?!minecraft:chests/spawn_bonus_chest$)[a-z0-9_.-]+:chests/.+$",
+                SourceDescriptionFormatter.Kind.LOOT_TABLE));
     }
 
     @Test

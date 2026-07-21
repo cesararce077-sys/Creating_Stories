@@ -4,7 +4,8 @@
   "package": "dev.jearchaeologyintegrations.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "CompatHandlerMixin"
+    "CompatHandlerMixin",
+    "HelperRecipeCacheMixin"
   ],
   "injectors": {
     "defaultRequire": 1

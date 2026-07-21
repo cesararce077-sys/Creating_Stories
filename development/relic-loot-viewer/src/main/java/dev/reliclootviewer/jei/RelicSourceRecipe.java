@@ -14,12 +14,19 @@ public record RelicSourceRecipe(
         WeightClassifier.Band weightBand,
         int minimumWeight,
         int maximumWeight,
-        double globalChance,
+        double rollChance,
+        SourceKind sourceKind,
         boolean obtainable
 ) {
     public RelicSourceRecipe {
         tables = List.copyOf(tables);
         dimensions = List.copyOf(dimensions);
         biomes = List.copyOf(biomes);
+    }
+
+    public enum SourceKind {
+        RELICS_DEFAULT,
+        THEMED,
+        FALLBACK
     }
 }

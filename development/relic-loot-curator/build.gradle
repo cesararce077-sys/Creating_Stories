@@ -6,7 +6,7 @@ plugins {
 version = mod_version
 group = mod_group_id
 
-base { archivesName = 'relic_loot_viewer' }
+base { archivesName = 'relic_loot_curator' }
 
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(21)
@@ -32,8 +32,6 @@ neoForge {
 dependencies {
     compileOnly files('../../mods/relics-1.21.1-0.12.8.jar')
     compileOnly files('../../mods/OctoLib-NEOFORGE-0.6.2+1.21.jar')
-    compileOnly files('../../mods/jei-1.21.1-neoforge-19.39.0.369.jar')
-    compileOnly files('../relic-loot-curator/build/libs/relic_loot_curator-0.2.0.jar')
 
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'

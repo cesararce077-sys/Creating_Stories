@@ -1,0 +1,451 @@
+{
+  "themed_chance": 0.2,
+  "fallback_chance": 0.02,
+  "fallback_dimensions": [
+    "minecraft:overworld"
+  ],
+  "fallback_table_patterns": [
+    "^(?!minecraft:chests/spawn_bonus_chest$)[a-z0-9_.-]+:chests/.+$"
+  ],
+  "fallback_pool": [
+    {
+      "item": "artifacts:umbrella",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:everlasting_beef",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:plastic_drinking_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:novelty_drinking_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:snorkel",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:night_vision_goggles",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:villager_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:superstitious_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:cowboy_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:anglers_hat",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:lucky_scarf",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:scarf_of_invisibility",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:cross_necklace",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:panic_necklace",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:shock_pendant",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:flame_pendant",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:thorn_pendant",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:charm_of_sinking",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:charm_of_shrinking",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:cloud_in_a_bottle",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:obsidian_skull",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:antidote_vessel",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:universal_attractor",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:crystal_heart",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:helium_flamingo",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:chorus_totem",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:warp_drive",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:digging_claws",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:feral_claws",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:power_glove",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:fire_gauntlet",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:pocket_piston",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:vampiric_glove",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:golden_hook",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:onion_ring",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:pickaxe_heater",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:withered_bracelet",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:aqua_dashers",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:bunny_hoppers",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:kitty_slippers",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:running_shoes",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:snowshoes",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:steadfast_spikes",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:flippers",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:rooted_boots",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:strider_shoes",
+      "weight": 1
+    },
+    {
+      "item": "artifacts:whoopee_cushion",
+      "weight": 1
+    },
+    {
+      "item": "relics:leafy_mantle",
+      "weight": 1
+    },
+    {
+      "item": "relics:springy_boot",
+      "weight": 1
+    },
+    {
+      "item": "relics:kinetic_belt",
+      "weight": 1
+    },
+    {
+      "item": "relics:reflective_necklace",
+      "weight": 1
+    },
+    {
+      "item": "relics:jellyfish_necklace",
+      "weight": 1
+    },
+    {
+      "item": "relics:midnight_mantle",
+      "weight": 1
+    },
+    {
+      "item": "relics:roller_skate",
+      "weight": 1
+    },
+    {
+      "item": "relics:chorus_staff",
+      "weight": 1
+    },
+    {
+      "item": "relics:clot_of_time",
+      "weight": 1
+    },
+    {
+      "item": "relics:piglin_mask",
+      "weight": 1
+    },
+    {
+      "item": "relics:chef_hat",
+      "weight": 1
+    },
+    {
+      "item": "relics:cut_glass_boot",
+      "weight": 1
+    },
+    {
+      "item": "relics:rider_flute",
+      "weight": 1
+    },
+    {
+      "item": "relics:ring_of_the_seven_deadly_sins",
+      "weight": 1
+    },
+    {
+      "item": "relics:sphere_of_self_sacrifice",
+      "weight": 1
+    },
+    {
+      "item": "relics:hunting_belt",
+      "weight": 1
+    },
+    {
+      "item": "relics:experience_disperser",
+      "weight": 1
+    },
+    {
+      "item": "relics:glitchy_mantle",
+      "weight": 1
+    },
+    {
+      "item": "relics:ghostly_mantle",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:cloak_of_concealment",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:flaming_bracer",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:staff_of_the_spectral_walker",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:quantum_bubble",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:emblem_of_defense",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:emblem_of_assault",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:mana_ring",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:archmage_glove",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:whirlisprig_petals",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:spiked_cloak",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:horn_of_the_wild_hunter",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:wing_of_the_wild_stalker",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:whirling_broom",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:ring_of_thrift",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:ballistarian_bracer",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:ring_of_last_will",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:illusionists_mantle",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:architects_staff",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_ars_nouveau:emblem_of_devotion",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:cardiac_trap",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:living_flesh",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:sinner_crown",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:slicer",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:mask_of_hunger",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:ring_of_blades",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:dimension_key",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:dragon_blood_vial",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:echo_glove",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:ender_bow",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:immaterial_disperser",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:lunar_sextant",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:sealed_sword",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:sealed_rapier",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:sealed_claymore",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:mirror_of_transgression",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:pulsar_mantle",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness",
+      "weight": 1
+    },
+    {
+      "item": "reliquified_irons_spells_and_spellbooks:shadow_claws",
+      "weight": 1
+    }
+  ],
+  "fallback_exclusions": [
+    "artifacts:eternal_steak"
+  ],
+  "suppressed_default_sources": [
+    "relics:experience_disperser",
+    "relics:roller_skate"
+  ]
+}

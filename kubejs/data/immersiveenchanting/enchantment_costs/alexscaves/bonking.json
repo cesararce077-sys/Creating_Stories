@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:heavy_bone",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:heavy_bone",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:heavy_bone",
+        "amount": 8
+      }
+    ]
+  }
+}

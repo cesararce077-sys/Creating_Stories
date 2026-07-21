@@ -1,7 +1,7 @@
 {
   "type": "immersiveenchanting:ancient_book_loot_modifier",
   "mode": "random_enchantment_from_list",
-  "enchantments": ["immersiveenchanting:replicate", "immersiveenchanting:transmute", "minecraft:aqua_affinity", "minecraft:efficiency", "minecraft:fortune", "minecraft:silk_touch", "minecraft:unbreaking"],
+  "enchantments": ["minecraft:aqua_affinity", "minecraft:efficiency", "minecraft:fortune", "minecraft:silk_touch", "minecraft:unbreaking"],
   "min_rolls": 1,
   "max_rolls": 1,
   "conditions": [{"condition":"minecraft:any_of","terms":[

@@ -1,0 +1,16 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:roadrunner_feather",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "malum:aerial_spirit",
+        "amount": 8
+      }
+    ]
+  }
+}

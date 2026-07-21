@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:bottled_cloud",
+        "amount": 1
+      }
+    ],
+    "2": [
+      {
+        "item": "iceandfire:amphithere_feather",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "malum:aerial_spirit",
+        "amount": 16
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:marine_snow",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:serrated_shark_tooth",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "iceandfire:sea_serpent_fang",
+        "amount": 4
+      }
+    ]
+  }
+}

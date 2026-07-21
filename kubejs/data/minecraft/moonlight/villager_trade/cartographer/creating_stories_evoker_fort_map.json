@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "irons_spellbooks:evoker_fort",
+  "map_color": "0x6f3b55",
+  "map_name": "filled_map.creating_stories.evoker_fort",
+  "map_marker": "moonlight:generic_structure",
+  "price_min": 20,
+  "price_max": 28,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

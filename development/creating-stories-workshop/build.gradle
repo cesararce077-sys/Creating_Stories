@@ -31,6 +31,8 @@ neoForge {
 
 dependencies {
     compileOnly files('../../mods/Truly-Modular-miapi-neoforge-2.3.8-1.21.jar')
+    compileOnly files('../../mods/create-1.21.1-6.0.10.jar')
+    compileOnly files('../../mods/create-enchantment-industry-2.4.2.jar')
     testImplementation platform('org.junit:junit-bom:5.10.2')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'

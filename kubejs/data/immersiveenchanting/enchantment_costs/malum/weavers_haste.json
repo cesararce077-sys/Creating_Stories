@@ -1,0 +1,28 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:moth_dust",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:violet_corundum",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "malum:aerial_spirit",
+        "amount": 8
+      }
+    ],
+    "4": [
+      {
+        "item": "malum:arcane_spirit",
+        "amount": 16
+      }
+    ]
+  }
+}

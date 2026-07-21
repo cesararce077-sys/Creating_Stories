@@ -1,0 +1,52 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:green_corundum",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:blue_corundum",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "quark:red_corundum",
+        "amount": 4
+      }
+    ],
+    "4": [
+      {
+        "item": "quark:black_corundum",
+        "amount": 8
+      }
+    ],
+    "5": [
+      {
+        "item": "iceandfire:sapphire_gem",
+        "amount": 4
+      }
+    ],
+    "6": [
+      {
+        "item": "alexscaves:amber",
+        "amount": 8
+      }
+    ],
+    "7": [
+      {
+        "item": "deeperdarker:crystallized_amber",
+        "amount": 4
+      }
+    ],
+    "8": [
+      {
+        "item": "minecraft:nether_star",
+        "amount": 1
+      }
+    ]
+  }
+}

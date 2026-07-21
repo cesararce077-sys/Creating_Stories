@@ -21,19 +21,15 @@ public interface ComponentApplyPropertyMixin {
     private static void creatingstories$repairStandalonePartName(ItemStack stack,
                                                                   RegistryAccess registryAccess,
                                                                   CallbackInfo ci) {
-        if (!stack.is(RegistryInventory.visualOnlymodularItem)) return;
-
+        boolean visualOnly = stack.is(RegistryInventory.visualOnlymodularItem);
         Component currentName = stack.get(DataComponents.CUSTOM_NAME);
-        if (currentName != null && !isBrokenMiapiName(currentName.getString())) return;
+        if (currentName == null && !visualOnly) return;
+        if (currentName != null && !SalvagedPartNaming.isWorkshopManagedName(currentName)) return;
 
         ModuleInstance module = ItemModule.getModules(stack);
         if (module.getModule().isEmpty()) return;
         Component repaired = SalvagedPartNaming.name(module, MaterialProperty.getMaterial(module));
         stack.set(DataComponents.CUSTOM_NAME,
             repaired.copy().withStyle(style -> style.withItalic(false)));
-    }
-
-    private static boolean isBrokenMiapiName(String name) {
-        return name.startsWith("miapi.") || name.contains(".miapi.");
     }
 }

@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:moth_dust",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:violet_corundum",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:occult_gem",
+        "amount": 4
+      }
+    ]
+  }
+}

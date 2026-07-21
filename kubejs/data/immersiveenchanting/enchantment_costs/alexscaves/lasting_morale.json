@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:sea_glass_shards",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:pearl",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:gazing_pearl",
+        "amount": 1
+      }
+    ]
+  }
+}

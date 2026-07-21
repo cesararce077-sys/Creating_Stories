@@ -1,0 +1,16 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "iceandfire:ectoplasm",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "malum:wicked_spirit",
+        "amount": 8
+      }
+    ]
+  }
+}

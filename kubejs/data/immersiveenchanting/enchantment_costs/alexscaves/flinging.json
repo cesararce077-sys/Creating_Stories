@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:fish_bones",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:shark_tooth",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "iceandfire:sea_serpent_fang",
+        "amount": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:pewen_sap",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:tree_star",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:pewen_branch",
+        "amount": 8
+      }
+    ]
+  }
+}

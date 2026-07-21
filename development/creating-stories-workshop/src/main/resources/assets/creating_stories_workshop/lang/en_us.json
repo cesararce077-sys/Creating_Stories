@@ -18,5 +18,7 @@
   "creating_stories_workshop.workbench.identical_part": "This tool already has an identical part.",
   "creating_stories_workshop.salvaged_part_name": "%s %s",
   "creating_stories_workshop.salvaged_part_without_material": "Salvaged %s",
-  "creating_stories_workshop.salvaged_assembly_name": "Salvaged %s Assembly"
+  "creating_stories_workshop.salvaged_assembly_name": "Salvaged %s Assembly",
+  "creating_stories_workshop.complete_equipment_name": "%s %s",
+  "creating_stories_workshop.menu.changelog_tooltip": "Creating Stories changelog"
 }

@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:rocky_shell",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "iceandfire:troll_tusk",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "minecraft:heavy_core",
+        "amount": 1
+      }
+    ]
+  }
+}

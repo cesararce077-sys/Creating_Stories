@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    { "condition": "neoforge:loot_table_id", "loot_table_id": "alexscaves:entities/licowitch" },
+    { "condition": "minecraft:killed_by_player" }
+  ],
+  "table": "creating_stories:end_eyes/witch_eye"
+}

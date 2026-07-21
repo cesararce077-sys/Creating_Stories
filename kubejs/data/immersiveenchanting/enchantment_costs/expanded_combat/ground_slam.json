@@ -1,0 +1,40 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:heavy_bone",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:tough_hide",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "iceandfire:deathworm_chitin_yellow",
+        "amount": 4
+      }
+    ],
+    "4": [
+      {
+        "item": "iceandfire:troll_tusk",
+        "amount": 4
+      }
+    ],
+    "5": [
+      {
+        "item": "quark:black_corundum",
+        "amount": 16
+      }
+    ],
+    "6": [
+      {
+        "item": "minecraft:heavy_core",
+        "amount": 1
+      }
+    ]
+  }
+}

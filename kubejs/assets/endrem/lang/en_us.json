@@ -1,0 +1,18 @@
+{
+  "item.endrem.black_eye.description": "§7§oGuaranteed from a player-slain Hullbreaker in an Abyssal Chasm.",
+  "item.endrem.cold_eye.description": "§7§oGuaranteed from a player-slain Frostmaw in the frozen wilds.",
+  "item.endrem.corrupted_eye.description": "§7§oGuaranteed from a player-slain Dead King in the Catacombs.",
+  "item.endrem.cryptic_eye.description": "§7§oGuaranteed from a player-slain Stalker. Search Ancient Temples from within the Otherside.",
+  "item.endrem.cursed_eye.description": "§7§oGuaranteed from a player-slain Maledictus in the Frosted Prison.",
+  "item.endrem.evil_eye.description": "§7§oGuaranteed from a player-slain Gorgon in a Gorgon Temple.",
+  "item.endrem.exotic_eye.description": "§7§oGuaranteed from a player-slain Leviathan in the Sunken City.",
+  "item.endrem.guardian_eye.description": "§7§oGuaranteed from a player-slain Elder Guardian in an Ocean Monument.",
+  "item.endrem.lost_eye.description": "§7§oGuaranteed from a player-slain Ferrous Wroughtnaut in a Wrought Chamber.",
+  "item.endrem.magical_eye.description": "§7§oGuaranteed from a player-slain Archevoker at an Evoker Fort.",
+  "item.endrem.nether_eye.description": "§7§oGuaranteed from Ignis. Burning Arena maps are found in Better Nether Fortresses.",
+  "item.endrem.old_eye.description": "§7§oGuaranteed from a player-slain Ancient Remnant in the Cursed Pyramid.",
+  "item.endrem.rogue_eye.description": "§7§oGuaranteed from a player-slain Cyclops in a Cyclops Cave.",
+  "item.endrem.undead_eye.description": "§7§oGuaranteed from a player-slain Dread Lich in a Dread Mausoleum.",
+  "item.endrem.witch_eye.description": "§7§oGuaranteed from a player-slain Licowitch in the Candy Cavity.",
+  "item.endrem.wither_eye.description": "§7§oGuaranteed from a summoned Wither. Better Nether Fortresses provide the skull hunt."
+}

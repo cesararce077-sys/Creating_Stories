@@ -5,8 +5,21 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class SalvagedPartNamingTest {
+    @Test
+    void recognizesOnlyWorkshopOwnedCustomNameKeys() {
+        assertTrue(SalvagedPartNameRules.isWorkshopManagedTranslationKey(
+            "creating_stories_workshop.salvaged_part_name"));
+        assertTrue(SalvagedPartNameRules.isWorkshopManagedTranslationKey(
+            "creating_stories_workshop.complete_equipment_name"));
+        assertFalse(SalvagedPartNameRules.isWorkshopManagedTranslationKey("item.miapi.modular_sword"));
+        assertFalse(SalvagedPartNameRules.isWorkshopManagedTranslationKey("minecraft.diamond_sword"));
+    }
+
     @Test
     void givesCommonPartsFunctionalNames() {
         assertEquals("Sword Handle", SalvagedPartNameRules.partName("tm_arsenal:handle/sword"));
@@ -37,5 +50,22 @@ class SalvagedPartNamingTest {
         assertEquals("Pickaxe", SalvagedPartNameRules.equipmentName(List.of(
             "tm_arsenal:handle/tool",
             "tm_arsenal:tool/pickaxe_front")));
+    }
+
+    @Test
+    void recognizesCompleteToolsButNotPartialAssemblies() {
+        assertEquals("Sword", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_arsenal:handle/sword",
+            "tm_arsenal:guard/normal",
+            "tm_arsenal:blade/normal")));
+        assertEquals("Pickaxe", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_arsenal:handle/tool",
+            "tm_arsenal:tool/pickaxe_front")));
+        assertNull(SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_arsenal:handle/sword",
+            "tm_arsenal:guard/normal")));
+        assertNull(SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_arsenal:guard/normal",
+            "tm_arsenal:blade/normal")));
     }
 }

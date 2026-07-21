@@ -5,7 +5,12 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "CraftActionMixin",
-    "ComponentApplyPropertyMixin"
+    "ComponentApplyPropertyMixin",
+    "MaterialSwapLootFunctionMixin",
+    "ModuleSwapLootFunctionMixin"
+  ],
+  "client": [
+    "IceAndFireTitleScreenRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

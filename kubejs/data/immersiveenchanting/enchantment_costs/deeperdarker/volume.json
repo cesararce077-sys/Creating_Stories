@@ -1,0 +1,28 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "deeperdarker:blooming_moss_block",
+        "amount": 16
+      }
+    ],
+    "2": [
+      {
+        "item": "deeperdarker:soul_dust",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "deeperdarker:crystallized_amber",
+        "amount": 4
+      }
+    ],
+    "4": [
+      {
+        "item": "deeperdarker:soul_crystal",
+        "amount": 4
+      }
+    ]
+  }
+}

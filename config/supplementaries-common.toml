@@ -714,7 +714,7 @@
 		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
 		death_marker = "WITH_COMPASS"
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
-		quill_adventurer_maps = true
+		quill_adventurer_maps = false
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
 		quill_vanilla_maps = true
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
@@ -727,11 +727,11 @@
 		[tweaks.map_tweaks.random_adventurer_maps]
 			#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 			#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-			enabled = true
+			enabled = false
 			#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decrease to speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search
 			# Default: 100
 			# Range: 1 ~ 1000
-			max_search_radius = 100
+			max_search_radius = 1000
 			#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. Increasing the number past 1 will allow x random structures to be picked instead. this can possibly speed up search as it decreases chances to find far away ones
 			# Default: 1
 			# Range: 1 ~ 1000

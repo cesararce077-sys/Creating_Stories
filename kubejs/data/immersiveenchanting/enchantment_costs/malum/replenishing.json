@@ -1,0 +1,16 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:green_corundum",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "malum:sacred_spirit",
+        "amount": 8
+      }
+    ]
+  }
+}

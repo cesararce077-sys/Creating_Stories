@@ -60,6 +60,8 @@ replay_pid*.log
 /config/particle_core_disabled_optimizations_v2.json
 /config/recipeessentials.json
 /config/resourceful-config-web.json
+/config/modpack-update-checker/modpack-info.txt
+/malum_extra.json
 /config/sophisticatedcore-common.toml
 /defaultconfigs/ftbessentials-server.snbt
 # Generated caches and per-install state

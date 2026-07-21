@@ -1,0 +1,28 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:red_corundum",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:moth_dust",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:occult_gem",
+        "amount": 2
+      }
+    ],
+    "4": [
+      {
+        "item": "alexsmobs:soul_heart",
+        "amount": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:soul_heart",
+        "amount": 1
+      }
+    ],
+    "2": [
+      {
+        "item": "malum:eldritch_spirit",
+        "amount": 4
+      }
+    ]
+  }
+}

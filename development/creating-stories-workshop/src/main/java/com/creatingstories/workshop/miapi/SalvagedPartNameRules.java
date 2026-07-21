@@ -6,6 +6,11 @@ import java.util.Locale;
 final class SalvagedPartNameRules {
     private SalvagedPartNameRules() {}
 
+    static boolean isWorkshopManagedTranslationKey(String key) {
+        return key != null && (key.startsWith("creating_stories_workshop.salvaged_")
+            || key.equals("creating_stories_workshop.complete_equipment_name"));
+    }
+
     static String partName(String moduleId) {
         String path = path(moduleId);
         if (path.contains("handle/sword")) return "Sword Handle";
@@ -49,6 +54,30 @@ final class SalvagedPartNameRules {
         if (joined.contains("handle/tool")) return "Tool";
         if (joined.contains("handle/polearm")) return "Polearm";
         return partName(moduleIds.getFirst());
+    }
+
+    /** A visual-only MIAPI stack is complete once its root handle has a working head. */
+    static String completeEquipmentName(List<String> moduleIds) {
+        if (moduleIds.isEmpty()) return null;
+        String root = path(moduleIds.getFirst()).toLowerCase(Locale.ROOT);
+        boolean hasBlade = moduleIds.stream()
+            .map(SalvagedPartNameRules::path)
+            .map(value -> value.toLowerCase(Locale.ROOT))
+            .anyMatch(value -> value.contains("blade/"));
+        boolean hasToolHead = moduleIds.stream()
+            .map(SalvagedPartNameRules::path)
+            .map(value -> value.toLowerCase(Locale.ROOT))
+            .anyMatch(value -> value.contains("tool/"));
+
+        if (root.contains("handle/sword") && hasBlade) return equipmentName(moduleIds);
+        if (root.contains("handle/tool") && hasToolHead) return equipmentName(moduleIds);
+        if (root.contains("handle/polearm") && hasBlade) return equipmentName(moduleIds);
+        return null;
+    }
+
+    static boolean isFunctionalPart(String moduleId) {
+        String path = path(moduleId).toLowerCase(Locale.ROOT);
+        return path.contains("blade/") || path.contains("tool/") || path.contains("shield/");
     }
 
     static String materialName(String materialId) {

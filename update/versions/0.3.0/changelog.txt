@@ -1,0 +1,9 @@
+Creating Stories 0.3.0
+
+- Rebuilt End access around sixteen guaranteed, player-kill Eye rewards from themed pre-End bosses and minibosses, while removing the original chest, crafting, enchanting, and villager bypasses.
+- Added thirteen curated boss expedition maps and an Integrated Stronghold map to Master Cartographers, plus Burning Arena maps in Better Nether Fortresses.
+- Added Explorer's Compass as an expensive post-Wither locator with a 20,000-block search radius, a three-level XP cost per search, and teleporting disabled.
+- Added themed material costs for all 89 installed Immersive Enchanting integrations, covering 192 paid enchantment levels.
+- Added Create: Enchantment Industry printer support for duplicating Ancient Books with books and liquid experience.
+- Updated Creating Stories Workshop to 0.0.22-dev with stable modular-tool names, hierarchy-safe material/module swaps, and title-screen compatibility fixes.
+- Made Alex's Caves easier to discover, made Pixie Villages four times rarer, and included Better Mineshafts defaults that replace vanilla mineshafts.

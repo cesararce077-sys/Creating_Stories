@@ -3,6 +3,16 @@
   "hotfixesFormat": null,
   "versions": [
     {
+      "id": "0.3.0",
+      "releasedAt": 1784618353093,
+      "promotions": {
+        "downloads": {
+          "generic": "https://github.com/cesararce077-sys/Creating_Stories/releases"
+        }
+      },
+      "updateType": "minor"
+    },
+    {
       "id": "0.2.2",
       "releasedAt": 1784537077945,
       "promotions": {

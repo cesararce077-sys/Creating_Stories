@@ -100,7 +100,7 @@ Putting an Ars 'n Spells Loom carrier scroll into Iron's inscription table and c
 
 ## Release and Roadmap
 
-- Current pack version is 0.2.2; verify the current manifest/tag before preparing another release.
+- Current pack version is 0.3.0; verify the current manifest/tag before preparing another release.
 - Every release must update `config/modpack-update-checker/config.json`, append its entry under `update/meta.json`, and add `update/versions/<version>/changelog.txt`. Keep the raw GitHub update base URL stable so older installations can discover later releases.
 - Roadmap work must start by reading `Design/` and reconciling it with the mods actually present in `manifest.json`/`mods/`.
 - Favor realistic, testable player interactions and balance milestones over broad feature lists.

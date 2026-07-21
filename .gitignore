@@ -42,6 +42,7 @@ replay_pid*.log
 /config/fabric/indigo-renderer.properties
 # Generated mod defaults and per-install preferences
 /config/advancementplaques.toml
+/config/create_aquatic_ambitions-server.toml
 /config/createdieselgenerators-client.toml
 /config/createdieselgenerators-common.toml
 /config/createdieselgenerators-server.toml
@@ -56,6 +57,8 @@ replay_pid*.log
 /config/justenoughbreeding-offsets.json
 /config/fzzy_config/
 /config/goblintraders-entities.toml
+/config/modernfix-mixins.properties
+/config/moonlight-client.toml
 /config/particle_core_config.toml
 /config/particle_core_disabled_optimizations_v2.json
 /config/recipeessentials.json

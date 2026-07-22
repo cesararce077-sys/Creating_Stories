@@ -1,0 +1,28 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "deeperdarker:glowing_roots",
+        "amount": 16
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:glow_shroom",
+        "amount": 16
+      }
+    ],
+    "3": [
+      {
+        "item": "malum:aqueous_spirit",
+        "amount": 8
+      }
+    ],
+    "4": [
+      {
+        "item": "malum:arcane_spirit",
+        "amount": 16
+      }
+    ]
+  }
+}

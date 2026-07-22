@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "creating_stories_navigation",
+  "pattern": [
+    "EHE",
+    "PRP",
+    "LNL"
+  ],
+  "key": {
+    "E": { "item": "minecraft:echo_shard" },
+    "H": { "item": "minecraft:heart_of_the_sea" },
+    "P": { "item": "create:precision_mechanism" },
+    "R": { "item": "minecraft:recovery_compass" },
+    "L": { "item": "minecraft:lodestone" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "id": "explorerscompass:explorerscompass"
+  }
+}

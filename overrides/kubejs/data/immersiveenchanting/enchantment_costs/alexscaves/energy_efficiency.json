@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:sulfur_dust",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:uranium_shard",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:uranium",
+        "amount": 4
+      }
+    ]
+  }
+}

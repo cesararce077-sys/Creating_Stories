@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:tough_hide",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:tough_hide",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:tough_hide",
+        "amount": 8
+      }
+    ]
+  }
+}

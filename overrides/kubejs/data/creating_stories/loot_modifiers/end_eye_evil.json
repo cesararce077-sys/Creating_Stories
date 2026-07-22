@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    { "condition": "neoforge:loot_table_id", "loot_table_id": "iceandfire:entities/gorgon" },
+    { "condition": "minecraft:killed_by_player" }
+  ],
+  "table": "creating_stories:end_eyes/evil_eye"
+}

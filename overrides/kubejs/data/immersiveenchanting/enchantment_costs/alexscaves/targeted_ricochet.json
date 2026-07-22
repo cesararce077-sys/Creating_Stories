@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:gelatin_green",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:gelatin_blue",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:gelatin_yellow",
+        "amount": 8
+      }
+    ]
+  }
+}

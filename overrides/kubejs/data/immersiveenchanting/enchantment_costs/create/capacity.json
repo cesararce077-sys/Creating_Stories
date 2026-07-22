@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:bonded_rabbit_hide",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:bonded_ravager_hide",
+        "amount": 2
+      }
+    ],
+    "3": [
+      {
+        "item": "iceandfire:deathworm_chitin_yellow",
+        "amount": 4
+      }
+    ]
+  }
+}

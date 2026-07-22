@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "supplementaries:flax",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:banana_slug_slime",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "quark:bonded_rabbit_hide",
+        "amount": 4
+      }
+    ]
+  }
+}

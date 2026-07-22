@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:white_corundum",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "quark:blue_corundum",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "quark:violet_corundum",
+        "amount": 8
+      }
+    ]
+  }
+}

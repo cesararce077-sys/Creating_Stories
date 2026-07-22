@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:dark_tatters",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:moth_dust",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "quark:black_corundum",
+        "amount": 8
+      }
+    ]
+  }
+}

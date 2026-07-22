@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:red_corundum",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:gazing_pearl",
+        "amount": 1
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:occult_gem",
+        "amount": 4
+      }
+    ]
+  }
+}

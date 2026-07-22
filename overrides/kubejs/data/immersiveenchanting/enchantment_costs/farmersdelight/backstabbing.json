@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:dropbear_claw",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:shark_tooth",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexsmobs:serrated_shark_tooth",
+        "amount": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "quark:lavender_blossom_leaves",
+        "amount": 16
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:acacia_blossom",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "quark:green_corundum",
+        "amount": 8
+      }
+    ]
+  }
+}

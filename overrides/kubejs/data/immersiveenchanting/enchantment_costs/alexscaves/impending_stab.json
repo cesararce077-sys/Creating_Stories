@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "supplementaries:ash",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "iceandfire:ectoplasm",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:occult_gem",
+        "amount": 2
+      }
+    ]
+  }
+}

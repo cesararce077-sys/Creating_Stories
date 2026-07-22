@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexscaves:rusty_scrap_metal",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:scrap_metal_plate",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexscaves:ferrouslime_ball",
+        "amount": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "integrated_stronghold:stronghold",
+  "map_color": "0x3a795d",
+  "map_name": "filled_map.creating_stories.integrated_stronghold",
+  "map_marker": "supplementaries:stronghold",
+  "price_min": 32,
+  "price_max": 48,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

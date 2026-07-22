@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:roadrunner_feather",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "item": "alexscaves:moth_dust",
+        "amount": 8
+      }
+    ],
+    "3": [
+      {
+        "item": "alexsmobs:soul_heart",
+        "amount": 1
+      }
+    ]
+  }
+}

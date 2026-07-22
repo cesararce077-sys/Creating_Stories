@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "iceandfire:mausoleum",
+  "map_color": "0x4a4a56",
+  "map_name": "filled_map.creating_stories.mausoleum",
+  "map_marker": "moonlight:generic_structure",
+  "price_min": 22,
+  "price_max": 30,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "entries": [
+    "creating_stories:ancient_books_arcane",
+    "creating_stories:ancient_books_martial",
+    "creating_stories:ancient_books_workshop",
+    "creating_stories:ancient_books_ranger",
+    "creating_stories:ancient_books_aerial",
+    "creating_stories:ancient_books_maritime",
+    "creating_stories:ancient_books_nether",
+    "creating_stories:ancient_books_death_and_sculk",
+    "creating_stories:ancient_books_archaeology_expedition",
+    "creating_stories:ancient_books_archaeology_maritime",
+    "creating_stories:ancient_books_archaeology_cursed",
+    "creating_stories:end_eye_black",
+    "creating_stories:end_eye_cold",
+    "creating_stories:end_eye_corrupted",
+    "creating_stories:end_eye_cryptic",
+    "creating_stories:end_eye_cursed",
+    "creating_stories:end_eye_evil",
+    "creating_stories:end_eye_exotic",
+    "creating_stories:end_eye_guardian",
+    "creating_stories:end_eye_lost",
+    "creating_stories:end_eye_magical",
+    "creating_stories:end_eye_nether",
+    "creating_stories:end_eye_old",
+    "creating_stories:end_eye_rogue",
+    "creating_stories:end_eye_undead",
+    "creating_stories:end_eye_witch",
+    "creating_stories:end_eye_wither",
+    "creating_stories:burning_arena_map"
+  ]
+}

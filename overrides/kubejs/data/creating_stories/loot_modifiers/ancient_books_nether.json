@@ -1,0 +1,13 @@
+{
+  "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
+  "enchantments":["minecraft:fire_aspect","minecraft:fire_protection","minecraft:flame","minecraft:soul_speed","minecraft:unbreaking"],
+  "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:chests/ancient_portal/ancient_portal_nether"},{"condition":"minecraft:random_chance","chance":0.18}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"irons_spellbooks:chests/pyromancer_tower/burnt_chest"},{"condition":"minecraft:random_chance","chance":0.22}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"irons_spellbooks:chests/pyromancer_tower/pyromancer_supplies"},{"condition":"minecraft:random_chance","chance":0.16}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterfortresses:chests/worship"},{"condition":"minecraft:random_chance","chance":0.2}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterfortresses:chests/keep"},{"condition":"minecraft:random_chance","chance":0.15}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"betterfortresses:chests/beacon"},{"condition":"minecraft:random_chance","chance":0.22}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"irons_spellbooks:chests/pyromancer_tower/pot"},{"condition":"minecraft:random_chance","chance":0.04}]}
+  ]}]
+}

@@ -1,0 +1,34 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:crocodile_scute",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:spiked_scute",
+        "amount": 2
+      }
+    ],
+    "3": [
+      {
+        "item": "alexsmobs:rocky_shell",
+        "amount": 2
+      }
+    ],
+    "4": [
+      {
+        "item": "quark:bonded_rabbit_hide",
+        "amount": 4
+      }
+    ],
+    "5": [
+      {
+        "item": "quark:bonded_ravager_hide",
+        "amount": 4
+      }
+    ]
+  }
+}

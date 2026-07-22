@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "cataclysm:sunken_city",
+  "map_color": "0x164f70",
+  "map_name": "filled_map.creating_stories.sunken_city",
+  "map_marker": "moonlight:generic_structure",
+  "price_min": 30,
+  "price_max": 42,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

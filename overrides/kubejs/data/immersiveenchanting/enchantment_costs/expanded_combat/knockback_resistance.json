@@ -1,0 +1,40 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "alexsmobs:banana_slug_slime",
+        "amount": 8
+      }
+    ],
+    "2": [
+      {
+        "item": "alexsmobs:crocodile_scute",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "alexsmobs:rocky_shell",
+        "amount": 4
+      }
+    ],
+    "4": [
+      {
+        "item": "quark:bonded_rabbit_hide",
+        "amount": 4
+      }
+    ],
+    "5": [
+      {
+        "item": "quark:bonded_ravager_hide",
+        "amount": 4
+      }
+    ],
+    "6": [
+      {
+        "item": "iceandfire:deathworm_chitin_yellow",
+        "amount": 16
+      }
+    ]
+  }
+}

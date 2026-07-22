@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "alexscaves:abyssal_ruins",
+    "alexscaves:licowitch_tower",
+    "mowziesmobs:frostmaw_spawn",
+    "mowziesmobs:wrought_chamber",
+    "irons_spellbooks:catacombs",
+    "irons_spellbooks:evoker_fort",
+    "deeperdarker:ancient_temple",
+    "cataclysm:frosted_prison",
+    "cataclysm:sunken_city",
+    "cataclysm:burning_arena",
+    "cataclysm:cursed_pyramid",
+    "iceandfire:gorgon_temple",
+    "iceandfire:cyclops_cave",
+    "iceandfire:mausoleum",
+    "betteroceanmonuments:ocean_monument",
+    "betterfortresses:fortress"
+  ]
+}

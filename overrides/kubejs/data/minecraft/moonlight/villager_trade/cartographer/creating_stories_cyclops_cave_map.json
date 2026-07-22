@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "iceandfire:cyclops_cave",
+  "map_color": "0x9b6c3e",
+  "map_name": "filled_map.creating_stories.cyclops_cave",
+  "map_marker": "moonlight:generic_structure",
+  "price_min": 18,
+  "price_max": 26,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

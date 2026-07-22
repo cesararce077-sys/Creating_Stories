@@ -19,6 +19,7 @@
 /resourcepacks/
 /shaderpacks/
 /downloads/
+/dist/
 /moonlight-global-datapacks/
 
 # Worlds, backups, and player-created local content
@@ -76,6 +77,7 @@ replay_pid*.log
 /local/
 /dynamic-data-pack-cache/
 /dynamic-resource-pack-cache/
+/kubejs/config/web_server.json
 
 # Editor and operating-system files
 /.idea/

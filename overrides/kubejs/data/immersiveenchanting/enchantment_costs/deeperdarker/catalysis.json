@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "1": [
+      {
+        "item": "deeperdarker:glowing_roots",
+        "amount": 16
+      }
+    ],
+    "2": [
+      {
+        "item": "deeperdarker:sculk_bone",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "item": "deeperdarker:soul_dust",
+        "amount": 8
+      }
+    ]
+  }
+}

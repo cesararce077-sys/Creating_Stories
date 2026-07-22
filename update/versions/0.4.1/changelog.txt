@@ -1,0 +1,8 @@
+Creating Stories 0.4.1
+
+- Fixed the CurseForge profile layout so clean imports receive the pack's configuration, default configuration, and KubeJS content.
+- Restored all themed Ancient Book loot and 89 Immersive Enchanting material-cost definitions in downloaded profiles.
+- Restored the sixteen boss and miniboss End Eye rewards, their progression restrictions, expedition maps, and related scripts in downloaded profiles.
+- Shipped the correct Creating Stories update-checker configuration, preventing clean installs from using unrelated generated or stale update metadata.
+- Added repeatable CurseForge override synchronization and package validation to prevent future releases from silently omitting live-instance content.
+- Disabled KubeJS's local web server by default without distributing its generated authentication credential.

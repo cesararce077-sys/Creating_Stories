@@ -1,0 +1,14 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "irons_spellbooks:catacombs",
+  "map_color": "0x55425f",
+  "map_name": "filled_map.creating_stories.catacombs",
+  "map_marker": "moonlight:generic_structure",
+  "price_min": 26,
+  "price_max": 38,
+  "price_secondary": { "id": "minecraft:compass", "count": 1 },
+  "max_trades": 4,
+  "price_multiplier": 0.2,
+  "level": 5
+}

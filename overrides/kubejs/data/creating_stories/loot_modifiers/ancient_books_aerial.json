@@ -1,0 +1,9 @@
+{
+  "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
+  "enchantments":["minecraft:feather_falling","minecraft:infinity","minecraft:projectile_protection","minecraft:unbreaking","minecraft:wind_burst"],
+  "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"integrated_villages:chests/airship_village/airship_village_cartographer"},{"condition":"minecraft:random_chance","chance":0.1}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"integrated_villages:chests/airship_village/airship_village_treasure"},{"condition":"minecraft:random_chance","chance":0.18}]},
+    {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:chests/archmages_tower/archmages_tower_treasure"},{"condition":"minecraft:random_chance","chance":0.22}]}
+  ]}]
+}

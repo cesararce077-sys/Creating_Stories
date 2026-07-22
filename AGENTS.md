@@ -121,7 +121,9 @@ Putting an Ars 'n Spells Loom carrier scroll into Iron's inscription table and c
 
 ## Release and Roadmap
 
-- Current pack version is 0.4.0; verify the current manifest/tag before preparing another release.
+- Current pack version is 0.4.1; verify the current manifest/tag before preparing another release.
+- The CurseForge manifest imports only files under `overrides/`. Root-level `config/`, `defaultconfigs/`, and `kubejs/` are the live-instance sources and must be mirrored with `tools/sync-curseforge-overrides.ps1` before packaging. Run the same script with `-Check` before every release; a GitHub source ZIP is not valid if this mirror is stale.
+- Never mirror the live `kubejs/config/web_server.json`; it contains a per-installation KubeJS web-server credential. The release-only `overrides/kubejs/config/web_server.json` intentionally disables the server and omits `auth`, allowing KubeJS to generate a private value on first launch.
 - Every release must update `config/modpack-update-checker/config.json`, set `latestVersion` in `update/meta.json` to the same version, append the release entry under `update/meta.json`, and add `update/versions/<version>/changelog.txt`. Never leave `latestVersion` implicit: Modpack Update Checker's fallback inference can identify an older entry as latest, and its toast treats any unequal version as an available update. Keep the raw GitHub update base URL stable so older installations can discover later releases.
 - Roadmap work must start by reading `Design/` and reconciling it with the mods actually present in `manifest.json`/`mods/`.
 - Favor realistic, testable player interactions and balance milestones over broad feature lists.

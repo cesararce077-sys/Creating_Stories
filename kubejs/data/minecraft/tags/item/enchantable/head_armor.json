@@ -1,0 +1,42 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:head_armor",
+    "alexscaves:primordial_helmet",
+    "alexscaves:hazmat_mask",
+    "alexscaves:diving_helmet",
+    "alexscaves:hood_of_darkness",
+    "alexscaves:gingerbread_helmet",
+    "alexsmobs:moose_headgear",
+    "alexsmobs:frontier_cap",
+    "alexsmobs:sombrero",
+    "alexsmobs:spiked_turtle_shell",
+    "alexsmobs:fedora",
+    "alexsmobs:froststalker_helmet",
+    "alexsmobs:novelty_hat",
+    "darkermagic:warden_mage_helmet",
+    "ice_and_fire_spellbooks:fire_dragon_priest_helmet",
+    "ice_and_fire_spellbooks:ice_dragon_priest_helmet",
+    "ice_and_fire_spellbooks:lightning_dragon_priest_helmet",
+    {
+      "id": "ice_and_fire_spellbooks:toornahkriin",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:fodaan",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:vulonqo",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:vulnilviir",
+      "required": false
+    },
+    {
+      "id": "ice_and_fire_spellbooks:vulsilah",
+      "required": false
+    }
+  ]
+}

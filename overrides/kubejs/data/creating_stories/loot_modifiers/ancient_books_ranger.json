@@ -1,6 +1,6 @@
 {
   "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
-  "enchantments":["minecraft:flame","minecraft:infinity","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:punch","minecraft:quick_charge","minecraft:unbreaking"],
+  "enchantments":["minecraft:flame","minecraft:infinity","minecraft:multishot","minecraft:piercing","minecraft:power","minecraft:projectile_protection","minecraft:punch","minecraft:quick_charge","minecraft:unbreaking","alexscaves:arrow_inducting","alexscaves:bouncing_bolt","alexscaves:dark_nock","alexscaves:far_flung","alexscaves:flinging","alexscaves:multiple_mint","alexscaves:precise_volley","alexscaves:targeted_ricochet","alexscaves:triple_split","alexsmobs:board_return","mynethersdelight:poaching"],
   "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
     {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:chests/hunters_cabin/hunters_cabin_tools"},{"condition":"minecraft:random_chance","chance":0.12}]},
     {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"idas:chests/pillager_camp/pillager_camp"},{"condition":"minecraft:random_chance","chance":0.1}]},

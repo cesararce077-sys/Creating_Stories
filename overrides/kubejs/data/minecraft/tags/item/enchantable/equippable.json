@@ -1,0 +1,36 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:foot_armor",
+    "#minecraft:leg_armor",
+    "#minecraft:chest_armor",
+    "#minecraft:head_armor",
+    "#minecraft:enchantable/armor",
+    "minecraft:elytra",
+    "#minecraft:skulls",
+    "minecraft:carved_pumpkin",
+    "alexscaves:galena_gauntlet",
+    "alexsmobs:tarantula_hawk_elytra",
+    "createornithopterglider:ornithopterglider",
+    "createornithopterglider:ornithopterglider_orange",
+    "createornithopterglider:ornithopterglider_magenta",
+    "createornithopterglider:ornithopterglider_light_blue",
+    "createornithopterglider:ornithopterglider_yellow",
+    "createornithopterglider:ornithopterglider_lime",
+    "createornithopterglider:ornithopterglider_pink",
+    "createornithopterglider:ornithopterglider_gray",
+    "createornithopterglider:ornithopterglider_light_gray",
+    "createornithopterglider:ornithopterglider_cyan",
+    "createornithopterglider:ornithopterglider_purple",
+    "createornithopterglider:ornithopterglider_blue",
+    "createornithopterglider:ornithopterglider_brown",
+    "createornithopterglider:ornithopterglider_green",
+    "createornithopterglider:ornithopterglider_red",
+    "createornithopterglider:ornithopterglider_black",
+    "deeperdarker:soul_elytra",
+    {
+      "id": "darkermagic:whispers_staff",
+      "required": false
+    }
+  ]
+}

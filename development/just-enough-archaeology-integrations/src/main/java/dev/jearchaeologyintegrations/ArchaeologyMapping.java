@@ -3,13 +3,14 @@ package dev.jearchaeologyintegrations;
 import java.util.List;
 
 public record ArchaeologyMapping(String requiredMod, String lootTable, String locationKey, Ground ground) {
-    public enum Ground { SAND, GRAVEL }
+    public enum Ground { SAND, GRAVEL, FOSSILIFEROUS_DIRT }
 
     public static final List<ArchaeologyMapping> ALL = List.of(
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_sand_desert_pyramid", "idas_desert_pyramid_sand", Ground.SAND),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_gravel_desert_pyramid", "idas_desert_pyramid_gravel", Ground.GRAVEL),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_sand_dig_site", "idas_dig_site_sand", Ground.SAND),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_gravel_dig_site", "idas_dig_site_gravel", Ground.GRAVEL),
+        new ArchaeologyMapping("idas", "creating_stories:archaeology/idas_dig_site_fossiliferous_dirt", "idas_dig_site_fossiliferous_dirt", Ground.FOSSILIFEROUS_DIRT),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_sand_labyrinth", "idas_labyrinth", Ground.SAND),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_gravel_train_ruins", "idas_train_ruins", Ground.GRAVEL),
         new ArchaeologyMapping("idas", "idas:archeology/suspicious_gravel_mining", "idas_mining", Ground.GRAVEL),

@@ -1,6 +1,6 @@
 {
   "type":"immersiveenchanting:ancient_book_loot_modifier","mode":"random_enchantment_from_list",
-  "enchantments":["minecraft:aqua_affinity","minecraft:channeling","minecraft:depth_strider","minecraft:impaling","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:respiration","minecraft:riptide"],
+  "enchantments":["minecraft:aqua_affinity","minecraft:channeling","minecraft:depth_strider","minecraft:impaling","minecraft:loyalty","minecraft:luck_of_the_sea","minecraft:respiration","minecraft:riptide","alexscaves:bouncing_bolt","alexscaves:charting_call","alexscaves:enveloping_bubble","alexscaves:flinging","alexscaves:lasting_morale","alexscaves:sea_swing","alexscaves:seapairing","alexscaves:second_wave","alexscaves:soak_seeking","alexscaves:taxing_bellow","alexscaves:triple_splash","alexscaves:tsunami"],
   "min_rolls":1,"max_rolls":1,"conditions":[{"condition":"minecraft:any_of","terms":[
     {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/ocean_ruin_cold"},{"condition":"minecraft:random_chance","chance":0.04}]},
     {"condition":"minecraft:all_of","terms":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:archaeology/ocean_ruin_warm"},{"condition":"minecraft:random_chance","chance":0.04}]},

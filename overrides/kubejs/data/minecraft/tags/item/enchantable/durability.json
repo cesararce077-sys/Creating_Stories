@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "miapi:modular_helmet",
+    "miapi:modular_chestplate",
+    "miapi:modular_elytra",
+    "miapi:modular_leggings",
+    "miapi:modular_boots",
+    "miapi:modular_bow",
+    "miapi:modular_small_bow",
+    "miapi:modular_large_bow",
+    "miapi:modular_crossbow",
+    "miapi:modular_small_crossbow",
+    "miapi:modular_large_crossbow"
+  ]
+}

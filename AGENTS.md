@@ -77,7 +77,7 @@ Build the curator before the viewer because the viewer has an optional compile-t
 
 ## Archaeology Viewer Integration
 
-The pack-owned Just Enough Archaeology addon source is in `development/just-enough-archaeology-integrations/`. Version `0.1.2` adds the missing IDAS and Integrated Villages brush-table mappings and fixes Just Enough Archaeology 1.2.0 retaining generated recipe displays across integrated-server instances.
+The pack-owned Just Enough Archaeology addon source is in `development/just-enough-archaeology-integrations/`. Version `0.1.3` adds the missing IDAS and Integrated Villages brush-table mappings, identifies the pack-owned IDAS dig-site fossiliferous-dirt route, and fixes Just Enough Archaeology 1.2.0 retaining generated recipe displays across integrated-server instances.
 
 Do not remove `HelperRecipeCacheMixin`. Just Enough Archaeology's static brushing/sniffing caches can retain Ancient Book item stacks backed by a previous world's enchantment registry. Re-entering or opening another world in the same client then disconnects with `Failed to encode packet 'clientbound/minecraft:update_recipes'` and `Can't find id` for an enchantment holder. The mixin clears each generated cache before the addon rebuilds it for the current server. Runtime JARs belong in both `mods/` and `overrides/mods/`; keep only one loadable version.
 
@@ -121,7 +121,7 @@ Putting an Ars 'n Spells Loom carrier scroll into Iron's inscription table and c
 
 ## Release and Roadmap
 
-- Current pack version is 0.4.1; verify the current manifest/tag before preparing another release.
+- Current pack version is 0.4.3; verify the current manifest/tag before preparing another release.
 - The CurseForge manifest imports only files under `overrides/`. Root-level `config/`, `defaultconfigs/`, and `kubejs/` are the live-instance sources and must be mirrored with `tools/sync-curseforge-overrides.ps1` before packaging. Run the same script with `-Check` before every release; a GitHub source ZIP is not valid if this mirror is stale.
 - Never mirror the live `kubejs/config/web_server.json`; it contains a per-installation KubeJS web-server credential. The release-only `overrides/kubejs/config/web_server.json` intentionally disables the server and omits `auth`, allowing KubeJS to generate a private value on first launch.
 - Every release must update `config/modpack-update-checker/config.json`, set `latestVersion` in `update/meta.json` to the same version, append the release entry under `update/meta.json`, and add `update/versions/<version>/changelog.txt`. Never leave `latestVersion` implicit: Modpack Update Checker's fallback inference can identify an older entry as latest, and its toast treats any unequal version as an available update. Keep the raw GitHub update base URL stable so older installations can discover later releases.

@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:chicken_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:chicken_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:creeper_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:creeper_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:guardian_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:guardian_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:ocelot_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:ocelot_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:sheep_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:sheep_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:villager_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:villager_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:wolf_fossil_head"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterarcheology:wolf_fossil_body"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 14
+        }
+      ]
+    }
+  ]
+}

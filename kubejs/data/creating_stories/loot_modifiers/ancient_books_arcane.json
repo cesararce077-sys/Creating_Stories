@@ -1,7 +1,7 @@
 {
   "type": "immersiveenchanting:ancient_book_loot_modifier",
   "mode": "random_enchantment_from_list",
-  "enchantments": ["minecraft:aqua_affinity", "minecraft:efficiency", "minecraft:fortune", "minecraft:silk_touch", "minecraft:unbreaking"],
+  "enchantments": ["minecraft:aqua_affinity", "minecraft:efficiency", "minecraft:fortune", "minecraft:silk_touch", "minecraft:unbreaking", "alexscaves:astral_transferring", "alexscaves:crystallization", "alexscaves:field_extension", "alexscaves:gamma_ray", "alexscaves:humungous_hex", "alexscaves:seekcandy", "alexscaves:solar", "alexscaves:spell_lasting", "alexscaves:twilight_perfection", "alexscaves:x_ray", "ars_nouveau:mana_boost", "ars_nouveau:mana_regen", "malum:capacitor", "malum:replenishing", "malum:weavers_haste", "malum:weavers_propagation", "supplementaries:stasis"],
   "min_rolls": 1,
   "max_rolls": 1,
   "conditions": [{"condition":"minecraft:any_of","terms":[

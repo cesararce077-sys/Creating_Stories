@@ -1,0 +1,6 @@
+Creating Stories 0.4.3
+
+- Restored the complete modular armor and archery enchantment sets, including Unbreaking, Mending, armor-slot enchantments, Mana Boost, and Mana Regen.
+- Repaired invalid Ice and Fire Spellbooks and Darker Magic item references that caused Minecraft to discard the shared armor, durability, equippable, and vanishing enchantment tags.
+- Fixed fossiliferous dirt brushing in IDAS dig sites and added the route to Just Enough Archaeology Integrations 0.1.3.
+- Distributed supported modded Ancient Books across context-appropriate structure loot while preserving archaeology's one-result brushing contract.

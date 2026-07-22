@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Creating Stories",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "cesararce077-sys",
   "overrides": "overrides",
   "files": [
@@ -41,7 +41,7 @@
     },
     {
       "projectID": 283644,
-      "fileID": 6926281,
+      "fileID": 8463693,
       "required": true,
       "isLocked": false
     },
@@ -143,7 +143,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 8426304,
+      "fileID": 8460169,
       "required": true,
       "isLocked": false
     },
@@ -197,7 +197,7 @@
     },
     {
       "projectID": 1299492,
-      "fileID": 8378364,
+      "fileID": 8466924,
       "required": true,
       "isLocked": false
     },
@@ -365,7 +365,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 8438425,
+      "fileID": 8470023,
       "required": true,
       "isLocked": false
     },
@@ -437,7 +437,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 8440438,
+      "fileID": 8467455,
       "required": true,
       "isLocked": false
     },
@@ -467,7 +467,7 @@
     },
     {
       "projectID": 1110803,
-      "fileID": 8420246,
+      "fileID": 8472789,
       "required": true,
       "isLocked": false
     },
@@ -533,7 +533,7 @@
     },
     {
       "projectID": 898963,
-      "fileID": 7445079,
+      "fileID": 8469391,
       "required": true,
       "isLocked": false
     },
@@ -545,7 +545,7 @@
     },
     {
       "projectID": 326652,
-      "fileID": 8260590,
+      "fileID": 8481114,
       "required": true,
       "isLocked": false
     },
@@ -713,7 +713,7 @@
     },
     {
       "projectID": 619320,
-      "fileID": 8440527,
+      "fileID": 8467509,
       "required": true,
       "isLocked": false
     },
@@ -803,7 +803,7 @@
     },
     {
       "projectID": 790626,
-      "fileID": 8360807,
+      "fileID": 8459650,
       "required": true,
       "isLocked": false
     },
@@ -845,7 +845,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 8447514,
+      "fileID": 8472941,
       "required": true,
       "isLocked": false
     },
@@ -881,7 +881,7 @@
     },
     {
       "projectID": 931925,
-      "fileID": 8179136,
+      "fileID": 8462029,
       "required": true,
       "isLocked": false
     },
@@ -947,7 +947,7 @@
     },
     {
       "projectID": 1005676,
-      "fileID": 8437403,
+      "fileID": 8466444,
       "required": true,
       "isLocked": false
     },
@@ -1037,7 +1037,7 @@
     },
     {
       "projectID": 533097,
-      "fileID": 8436420,
+      "fileID": 8480771,
       "required": true,
       "isLocked": false
     },
@@ -1085,7 +1085,7 @@
     },
     {
       "projectID": 907856,
-      "fileID": 6165711,
+      "fileID": 8463998,
       "required": true,
       "isLocked": false
     },
@@ -1116,6 +1116,36 @@
     {
       "projectID": 1318568,
       "fileID": 7771486,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1354719,
+      "fileID": 8011665,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1312780,
+      "fileID": 8192296,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 828331,
+      "fileID": 6850529,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 225738,
+      "fileID": 7943676,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 909375,
+      "fileID": 8412915,
       "required": true,
       "isLocked": false
     },

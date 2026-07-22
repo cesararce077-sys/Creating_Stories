@@ -1,0 +1,6 @@
+Creating Stories 0.4.2
+
+- Reconciled the CurseForge manifest with the live pack so all 193 tracked projects install at their current tested file versions.
+- Restored Immersive Enchanting, Create: Ornithopter Glider, Gliders, Target Dummy, and WITS to clean CurseForge imports.
+- Updated fifteen stale manifest file references, including JEI, ModernFix, Supplementaries, Moonlight Lib, and Sophisticated Storage dependencies.
+- Added Vercte's Satchels to the release overrides with its MIT license notice so clean imports match the live instance.

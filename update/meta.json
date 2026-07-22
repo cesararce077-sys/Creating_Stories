@@ -1,8 +1,18 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "0.3.1",
+  "latestVersion": "0.4.0",
   "hotfixesFormat": null,
   "versions": [
+    {
+      "id": "0.4.0",
+      "releasedAt": 1784689334562,
+      "promotions": {
+        "downloads": {
+          "generic": "https://github.com/cesararce077-sys/Creating_Stories/releases"
+        }
+      },
+      "updateType": "minor"
+    },
     {
       "id": "0.3.1",
       "releasedAt": 1784676966930,

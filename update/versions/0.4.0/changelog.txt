@@ -1,0 +1,8 @@
+Creating Stories 0.4.0
+
+- Added Truly Modular: Archery and Truly Modular: Armory, extending the persistent modular-equipment progression to bows, crossbows, arrows, armor, and elytra components.
+- Extended the Workshop's hierarchy-safe salvage and replacement interaction to ranged and armor module trees, including XP costs, returned displaced parts, and protection against destructive child removal.
+- Added conservative conversion coverage for vanilla equipment and ordinary material variants from Expanded Combat, Create Stuff & Additions, Deeper Darker, and Ice and Fire while preserving magical, boss, powered, spellcaster, relic, and other ability-bearing gear.
+- Extended modular loot randomization across ranged and armor descendants so materials, limbs, strings, attachments, plates, bindings, and other compatible parts can vary independently.
+- Added readable names for detached archery and armor parts and for complete mixed-material equipment, including generated materials such as Resonarium, Silver, Black Steel, and Reinforced Echo.
+- Expanded `/creatingstories modular audit` with tool, archery, and armor coverage reports.

@@ -31,6 +31,20 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.${mod_id}]]
+modId = "tm_archery"
+type = "required"
+versionRange = "[2.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "tm_armory"
+type = "required"
+versionRange = "[2.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
 modId = "create_sa"
 type = "optional"
 versionRange = "[2.1.4,)"

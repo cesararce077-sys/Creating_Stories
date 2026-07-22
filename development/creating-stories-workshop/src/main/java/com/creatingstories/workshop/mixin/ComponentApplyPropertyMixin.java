@@ -14,6 +14,7 @@ import smartin.miapi.modules.ItemModule;
 import smartin.miapi.modules.ModuleInstance;
 import smartin.miapi.modules.properties.util.ComponentApplyProperty;
 import smartin.miapi.registries.RegistryInventory;
+import smartin.miapi.item.modular.ModularItem;
 
 @Mixin(value = ComponentApplyProperty.class, remap = false)
 public interface ComponentApplyPropertyMixin {
@@ -22,13 +23,17 @@ public interface ComponentApplyPropertyMixin {
                                                                   RegistryAccess registryAccess,
                                                                   CallbackInfo ci) {
         boolean visualOnly = stack.is(RegistryInventory.visualOnlymodularItem);
+        boolean functionalModular = ModularItem.isModularItem(stack);
         Component currentName = stack.get(DataComponents.CUSTOM_NAME);
-        if (currentName == null && !visualOnly) return;
+        if (currentName == null && !visualOnly && !functionalModular) return;
         if (currentName != null && !SalvagedPartNaming.isWorkshopManagedName(currentName)) return;
 
         ModuleInstance module = ItemModule.getModules(stack);
         if (module.getModule().isEmpty()) return;
-        Component repaired = SalvagedPartNaming.name(module, MaterialProperty.getMaterial(module));
+        Component repaired = functionalModular && !visualOnly
+            ? SalvagedPartNaming.completeEquipmentName(module, MaterialProperty.getMaterial(module))
+            : SalvagedPartNaming.name(module, MaterialProperty.getMaterial(module));
+        if (repaired == null) return;
         stack.set(DataComponents.CUSTOM_NAME,
             repaired.copy().withStyle(style -> style.withItalic(false)));
     }

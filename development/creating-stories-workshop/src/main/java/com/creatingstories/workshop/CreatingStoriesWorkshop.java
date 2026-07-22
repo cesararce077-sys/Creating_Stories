@@ -2,6 +2,7 @@ package com.creatingstories.workshop;
 
 import com.creatingstories.workshop.command.FusionCommand;
 import com.creatingstories.workshop.miapi.OrdinaryToolConverters;
+import com.creatingstories.workshop.miapi.OrdinaryEquipmentConverters;
 import com.creatingstories.workshop.miapi.SalvagedPartNaming;
 import net.minecraft.core.component.DataComponents;
 import net.neoforged.bus.api.IEventBus;
@@ -13,6 +14,7 @@ import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.minecraft.world.item.ItemStack;
 import smartin.miapi.modules.properties.util.ComponentApplyProperty;
 import smartin.miapi.registries.RegistryInventory;
+import smartin.miapi.item.modular.ModularItem;
 import com.creatingstories.workshop.miapi.PartInstallCrafting;
 import com.creatingstories.workshop.enchanting.AncientBookPrintingIntegration;
 import net.neoforged.fml.ModList;
@@ -23,6 +25,7 @@ public final class CreatingStoriesWorkshop {
 
     public CreatingStoriesWorkshop(IEventBus modBus) {
         OrdinaryToolConverters.register();
+        OrdinaryEquipmentConverters.register();
         NeoForge.EVENT_BUS.register(FusionCommand.class);
         NeoForge.EVENT_BUS.addListener(this::serverAboutToStart);
         NeoForge.EVENT_BUS.addListener(this::playerLoggedIn);
@@ -49,7 +52,8 @@ public final class CreatingStoriesWorkshop {
         if (event.getEntity().level().isClientSide()) return;
         for (int slot = 0; slot < event.getEntity().getInventory().getContainerSize(); slot++) {
             ItemStack stack = event.getEntity().getInventory().getItem(slot);
-            if (stack.is(RegistryInventory.visualOnlymodularItem)
+            if (ModularItem.isModularItem(stack)
+                || stack.is(RegistryInventory.visualOnlymodularItem)
                 || SalvagedPartNaming.isWorkshopManagedName(stack.get(DataComponents.CUSTOM_NAME))) {
                 ComponentApplyProperty.updateItemStack(
                     stack, event.getEntity().level().registryAccess());

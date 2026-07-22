@@ -2,6 +2,24 @@
 
 Pack-specific NeoForge integration for the persistent modular-equipment progression.
 
+Workshop `0.0.25-dev` extends the established hierarchy-safe salvage and
+replacement pipeline to Truly Modular: Archery and Truly Modular: Armory.
+Automatic conversion is deliberately limited to mundane material variants;
+ability-bearing, boss, relic, spellcaster, powered, and other signature gear
+keeps its original item behavior.
+
+Coverage can be checked in game with:
+
+```text
+/creatingstories modular audit
+/creatingstories modular audit tools
+/creatingstories modular audit archery
+/creatingstories modular audit armor
+/creatingstories modular audit unmapped
+```
+
+Complete categorized lists are also written to `latest.log`.
+
 ## Fusion command prototype
 
 Hold the persistent modular item in the main hand and a donor modular item in the offhand. A component path is the slash-separated MIAPI slot path from the root.

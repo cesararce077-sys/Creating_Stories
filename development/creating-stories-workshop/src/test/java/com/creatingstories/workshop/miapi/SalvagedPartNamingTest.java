@@ -26,12 +26,23 @@ class SalvagedPartNamingTest {
         assertEquals("Sword Blade", SalvagedPartNameRules.partName("tm_arsenal:blade/normal"));
         assertEquals("Pickaxe Head", SalvagedPartNameRules.partName("tm_arsenal:tool/pickaxe_front"));
         assertEquals("Round Pommel", SalvagedPartNameRules.partName("tm_arsenal:pommel/round"));
+        assertEquals("Recurve Bow Limbs", SalvagedPartNameRules.partName("tm_archery:bow/arm/recurve"));
+        assertEquals("Crossbow Stirrup", SalvagedPartNameRules.partName("tm_archery:crossbow/attachments/styrup"));
+        assertEquals("Heavy Front Chestplate", SalvagedPartNameRules.partName("tm_armory:armor/heavy/front_chest"));
     }
 
     @Test
     void derivesReadableFallbackFromUntranslatedMaterialId() {
         assertEquals("Wood", SalvagedPartNameRules.materialName("miapi:wood/wood"));
         assertEquals("Rose Quartz", SalvagedPartNameRules.materialName("creating_stories_workshop:crystal/rose_quartz"));
+        assertEquals("Resonarium", SalvagedPartNameRules.materialName(
+            "miapi:generated/item.deeperdarker.resonariumitem.deeperdarker.resonarium_sword"));
+        assertEquals("Silver", SalvagedPartNameRules.materialName(
+            "miapi:generated/item.iceandfire.silver_ingotitem.iceandfire.silver_sword"));
+        assertEquals("Black Steel", SalvagedPartNameRules.materialName(
+            "miapi:generated/item.cataclysm.black_steel_ingotitem.cataclysm.black_steel_sword"));
+        assertEquals("Reinforced Echo", SalvagedPartNameRules.materialName(
+            "miapi:generated/item.deeperdarker.reinforced_echo_sharditem.deeperdarker.warden_sword"));
     }
 
     @Test
@@ -67,5 +78,32 @@ class SalvagedPartNamingTest {
         assertNull(SalvagedPartNameRules.completeEquipmentName(List.of(
             "tm_arsenal:guard/normal",
             "tm_arsenal:blade/normal")));
+    }
+
+    @Test
+    void recognizesCompleteRangedEquipmentAndArmor() {
+        assertEquals("Bow", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_archery:bow/handle/normal",
+            "tm_archery:bow/arm/recurve",
+            "tm_archery:bow/string/normal")));
+        assertEquals("Crossbow", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_archery:crossbow/stock/normal",
+            "tm_archery:crossbow/arms/normal",
+            "tm_archery:crossbow/string/sinew")));
+        assertEquals("Arrow", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_archery:arrow/shaft/normal",
+            "tm_archery:arrow/head/normal",
+            "tm_archery:arrow/tail/fletching")));
+        assertEquals("Chestplate", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_armory:armor/chestplate",
+            "tm_armory:armor/default/front_chest",
+            "tm_armory:armor/default/back_chest")));
+        assertEquals("Elytra", SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_armory:armor/chestplate",
+            "tm_armory:armor/wing/elytra_backplate",
+            "tm_armory:armor/wing/left")));
+        assertNull(SalvagedPartNameRules.completeEquipmentName(List.of(
+            "tm_archery:bow/handle/normal",
+            "tm_archery:bow/arm/recurve")));
     }
 }

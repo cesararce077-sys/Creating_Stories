@@ -1,0 +1,125 @@
+{
+  default_hide_dependency_lines: false
+  filename: "ars_nouveau"
+  group: "6749A55FD6F01BFA"
+  icon: { id: "ars_nouveau:novice_spell_book" }
+  id: "259BD3FC49D6FC8D"
+  order_index: 2
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "ars_nouveau:worn_notebook" }
+      id: "1F306B97490CF1D1"
+      tasks: [
+        {
+          id: "2487522C65FDCBF0"
+          item: { count: 1, id: "ars_nouveau:worn_notebook" }
+          type: "item"
+        }
+      ]
+      x: -7.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["1F306B97490CF1D1"]
+      icon: { id: "ars_nouveau:novice_spell_book" }
+      id: "147AA46E86F57745"
+      tasks: [
+        {
+          id: "06BE43935BCD71E8"
+          item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+          type: "item"
+        }
+      ]
+      x: -5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["147AA46E86F57745"]
+      icon: { id: "ars_nouveau:source_gem" }
+      id: "6F6CB583961B52D7"
+      tasks: [
+        {
+          id: "4F0A4B5CA352504C"
+          item: { count: 1, id: "ars_nouveau:source_gem" }
+          type: "item"
+        }
+      ]
+      x: -3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["6F6CB583961B52D7"]
+      icon: { id: "ars_nouveau:imbuement_chamber" }
+      id: "2C5619475E9DEE6E"
+      tasks: [
+        {
+          id: "5AADEDC70E6DB225"
+          item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["6F6CB583961B52D7"]
+      icon: { id: "ars_nouveau:scribes_table" }
+      id: "7D78491C62EC265E"
+      tasks: [
+        {
+          id: "2A4C0D91283372C3"
+          item: { count: 1, id: "ars_nouveau:scribes_table" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["2C5619475E9DEE6E" "7D78491C62EC265E"]
+      icon: { id: "ars_nouveau:enchanting_apparatus" }
+      id: "0DA4CAFE66B7A5AD"
+      tasks: [
+        {
+          id: "40EC46A784802ACA"
+          item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+          type: "item"
+        }
+      ]
+      x: 2.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["2C5619475E9DEE6E" "7D78491C62EC265E"]
+      icon: { id: "ars_nouveau:ritual_brazier" }
+      id: "3791FB4494FD96BD"
+      tasks: [
+        {
+          id: "7AAA3509CC60A10A"
+          item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+          type: "item"
+        }
+      ]
+      x: 2.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["0DA4CAFE66B7A5AD" "3791FB4494FD96BD"]
+      icon: { id: "ars_nouveau:archmage_spell_book" }
+      id: "0B0D0B4FCF673D86"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "205B42383A856FDF"
+          item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+          type: "item"
+        }
+      ]
+      x: 5.0d
+      y: 0.0d
+    }
+  ]
+}

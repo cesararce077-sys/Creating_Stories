@@ -1,0 +1,107 @@
+{
+  default_hide_dependency_lines: false
+  filename: "unified_magic"
+  group: "6749A55FD6F01BFA"
+  icon: { id: "ars_n_spells:spell_loom" }
+  id: "7FE39870B88F20D1"
+  order_index: 0
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "irons_spellbooks:copper_spell_book" }
+      id: "0D99F3E4B1CDED98"
+      tasks: [
+        {
+          id: "50989A147D70D6F3"
+          type: "checkmark"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["0D99F3E4B1CDED98"]
+      icon: { id: "ars_n_spells:spell_loom" }
+      id: "56F7DCB742CECBB9"
+      tasks: [
+        {
+          id: "43E454F5A1DC5EC8"
+          item: { count: 1, id: "ars_n_spells:spell_loom" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["56F7DCB742CECBB9"]
+      icon: { id: "irons_spellbooks:scroll" }
+      id: "2DC941BC6BFDA4E0"
+      min_width: 340
+      tasks: [
+        {
+          id: "336D856CACCB7643"
+          type: "checkmark"
+        }
+      ]
+      x: -2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["2DC941BC6BFDA4E0"]
+      icon: { id: "ars_n_spells:spellbook_binding" }
+      id: "09E1FC358FB86CDD"
+      tasks: [
+        {
+          id: "2557E44E6AB6F276"
+          item: { count: 1, id: "ars_n_spells:spellbook_binding" }
+          type: "item"
+        }
+      ]
+      x: 0.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["09E1FC358FB86CDD"]
+      icon: { id: "irons_spellbooks:copper_spell_book" }
+      id: "0352DFA24DFA2B90"
+      tasks: [
+        {
+          id: "7156FE4714D06797"
+          type: "checkmark"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["0352DFA24DFA2B90"]
+      icon: { id: "ars_nouveau:novice_spell_book" }
+      id: "60B1DBB02608163B"
+      tasks: [
+        {
+          id: "10E50D977AD76A92"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["60B1DBB02608163B"]
+      icon: { id: "malum:encyclopedia_arcana" }
+      id: "2CDB88694A039E79"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "601FE420FDCA4948"
+          type: "checkmark"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+  ]
+}

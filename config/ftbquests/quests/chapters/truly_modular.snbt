@@ -1,0 +1,122 @@
+{
+  default_hide_dependency_lines: false
+  filename: "truly_modular"
+  group: "1847F1FBAEB401B6"
+  icon: { id: "miapi:modular_work_bench" }
+  id: "711137B4ED15AD2C"
+  order_index: 2
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "miapi:modular_work_bench" }
+      id: "275E08BEBD1B8E7B"
+      tasks: [
+        {
+          id: "37A98B4C7DB2E858"
+          item: { count: 1, id: "miapi:modular_work_bench" }
+          type: "item"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["275E08BEBD1B8E7B"]
+      icon: { id: "miapi:modular_sword" }
+      id: "39DA7ED7F11E321C"
+      tasks: [
+        {
+          id: "3DCCEC3E9B83F65F"
+          item: { count: 1, id: "miapi:modular_sword" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["275E08BEBD1B8E7B"]
+      icon: { id: "miapi:modular_pickaxe" }
+      id: "3F58421E267A0A82"
+      tasks: [
+        {
+          id: "31C100958D1FD6FD"
+          item: { count: 1, id: "miapi:modular_pickaxe" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["39DA7ED7F11E321C" "3F58421E267A0A82"]
+      icon: { id: "miapi:modular_bow" }
+      id: "0876B0D08F9B0F4D"
+      tasks: [
+        {
+          id: "67E05A3C5C7A441E"
+          item: { count: 1, id: "miapi:modular_bow" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["39DA7ED7F11E321C" "3F58421E267A0A82"]
+      icon: { id: "miapi:modular_chestplate" }
+      id: "69EC435C6C161386"
+      tasks: [
+        {
+          id: "7F7FF92B943E6A49"
+          item: { count: 1, id: "miapi:modular_chestplate" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["0876B0D08F9B0F4D" "69EC435C6C161386"]
+      icon: { id: "miapi:modular_work_bench" }
+      id: "56175379B57E4004"
+      tasks: [
+        {
+          id: "4B94D727DAEA2BA3"
+          type: "checkmark"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["56175379B57E4004"]
+      icon: { id: "iceandfire:dragonsteel_fire_ingot" }
+      id: "19619EB755E629D1"
+      tasks: [
+        {
+          id: "37D2A61E02FC0128"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["19619EB755E629D1"]
+      icon: { id: "miapi:modular_sword" }
+      id: "57344BEF5F844A3A"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "3A256FC22AA03FA3"
+          type: "checkmark"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+  ]
+}

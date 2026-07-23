@@ -1,0 +1,130 @@
+{
+  default_hide_dependency_lines: false
+  filename: "campaign_compass"
+  group: "0485BE44AE37FD25"
+  icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+  id: "1C66A9D3C3921220"
+  order_index: 1
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "576C598047DD3349"
+      tasks: [
+        {
+          id: "4DBA1B505BF52B3A"
+          type: "checkmark"
+        }
+      ]
+      x: -8.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["576C598047DD3349"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "07CC7D75BA563A98"
+      tasks: [
+        {
+          id: "1259FE80801720BF"
+          type: "checkmark"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["07CC7D75BA563A98"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "5D101BCC15AF89BF"
+      tasks: [
+        {
+          id: "0B14E844EE0043A6"
+          type: "checkmark"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["5D101BCC15AF89BF"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "00A5E59775C6228C"
+      tasks: [
+        {
+          id: "54EB61B045FD2181"
+          type: "checkmark"
+        }
+      ]
+      x: -2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["00A5E59775C6228C"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "037120AA99FB553F"
+      tasks: [
+        {
+          id: "5656FEC590543C2E"
+          type: "checkmark"
+        }
+      ]
+      x: 0.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["037120AA99FB553F"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "344FE8D801719468"
+      tasks: [
+        {
+          id: "4A432647B2E14F79"
+          type: "checkmark"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["344FE8D801719468"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "7C2F9F177C69D7EB"
+      tasks: [
+        {
+          id: "531A856F2E28BBA2"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["7C2F9F177C69D7EB"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "60ABD32C521DE554"
+      tasks: [
+        {
+          id: "11B131754F604263"
+          type: "checkmark"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["60ABD32C521DE554"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "6FDC26A02830B5D2"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "601432B88102E447"
+          type: "checkmark"
+        }
+      ]
+      x: 8.0d
+      y: 0.0d
+    }
+  ]
+}

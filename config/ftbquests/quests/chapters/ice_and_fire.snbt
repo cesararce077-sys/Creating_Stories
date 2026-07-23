@@ -1,0 +1,109 @@
+{
+  default_hide_dependency_lines: false
+  filename: "ice_and_fire"
+  group: "1D3BB10D1DC00FAD"
+  icon: { id: "iceandfire:bestiary" }
+  id: "5529BB4F68F3980B"
+  order_index: 0
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "iceandfire:bestiary" }
+      id: "4327930A575C2411"
+      tasks: [
+        {
+          id: "7D48EAA8F893F4FA"
+          item: { count: 1, id: "iceandfire:bestiary" }
+          type: "item"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["4327930A575C2411"]
+      icon: { id: "iceandfire:dragonbone" }
+      id: "52D0548A681C6E96"
+      tasks: [
+        {
+          id: "1B745AECB5E02C31"
+          item: { count: 1, id: "iceandfire:dragonbone" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["52D0548A681C6E96"]
+      icon: { id: "iceandfire:dragon_skull_fire" }
+      id: "732916B817472CB1"
+      tasks: [
+        {
+          id: "227F2DC88BD5A5F4"
+          item: { count: 1, id: "iceandfire:dragon_skull_fire" }
+          type: "item"
+        }
+      ]
+      x: -2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["732916B817472CB1"]
+      icon: { id: "iceandfire:dragonforge_fire_core" }
+      id: "3E529131CDFE1ACF"
+      tasks: [
+        {
+          id: "3C6ED3F0AB44F742"
+          item: { count: 1, id: "iceandfire:dragonforge_fire_core" }
+          type: "item"
+        }
+      ]
+      x: 0.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["3E529131CDFE1ACF"]
+      icon: { id: "iceandfire:dragonsteel_fire_ingot" }
+      id: "20BE8316841B8E37"
+      tasks: [
+        {
+          id: "03CD1104B1CCDE72"
+          item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+          type: "item"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["20BE8316841B8E37"]
+      icon: { id: "endrem:evil_eye" }
+      id: "2AF6BCA2444FE02A"
+      tasks: [
+        {
+          id: "2FDE8B1615ABD85D"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["2AF6BCA2444FE02A"]
+      icon: { id: "iceandfire:dragonsteel_lightning_ingot" }
+      id: "2ABED34FD0661E85"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "0E460801ADE20A48"
+          type: "checkmark"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+  ]
+}

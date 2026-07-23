@@ -1,0 +1,112 @@
+{
+  default_hide_dependency_lines: false
+  filename: "alexs_caves"
+  group: "1D3BB10D1DC00FAD"
+  icon: { id: "alexscaves:cave_book" }
+  id: "4FA5006944D0C497"
+  order_index: 3
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "alexscaves:cave_tablet" }
+      id: "52AB5049635B29E2"
+      tasks: [
+        {
+          id: "4F8E667C1FE84DC7"
+          item: { count: 1, id: "alexscaves:cave_tablet" }
+          type: "item"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["52AB5049635B29E2"]
+      icon: { id: "alexscaves:cave_book" }
+      id: "333D4C39C5BF15E3"
+      tasks: [
+        {
+          id: "44327B94B5750A42"
+          item: { count: 1, id: "alexscaves:cave_book" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["333D4C39C5BF15E3"]
+      icon: { id: "alexscaves:heart_of_iron" }
+      id: "4F2C75F3B7F6717A"
+      tasks: [
+        {
+          id: "1C07EFAC54449BED"
+          item: { count: 1, id: "alexscaves:heart_of_iron" }
+          type: "item"
+        }
+      ]
+      x: -2.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["333D4C39C5BF15E3"]
+      icon: { id: "alexscaves:abyssal_altar" }
+      id: "2904AD0EACCA52AA"
+      tasks: [
+        {
+          id: "7105CC90E89B6E29"
+          item: { count: 1, id: "alexscaves:abyssal_altar" }
+          type: "item"
+        }
+      ]
+      x: -2.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["2904AD0EACCA52AA"]
+      icon: { id: "endrem:black_eye" }
+      id: "7A483A129DA719EF"
+      tasks: [
+        {
+          entity: "alexscaves:hullbreaker"
+          id: "04851F2CD4686634"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["4F2C75F3B7F6717A"]
+      icon: { id: "endrem:witch_eye" }
+      id: "20B2F8C42183C50E"
+      tasks: [
+        {
+          entity: "alexscaves:licowitch"
+          id: "0812839382867E09"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["7A483A129DA719EF" "20B2F8C42183C50E"]
+      icon: { components: { "minecraft:custom_name": "{\"translate\":\"item.antique_atlas.atlas\"}" }, id: "minecraft:book" }
+      id: "6EDD62B7B372E947"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "268CBAB9DD9DE11C"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+  ]
+}

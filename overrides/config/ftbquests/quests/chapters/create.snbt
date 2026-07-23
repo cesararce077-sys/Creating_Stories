@@ -1,0 +1,124 @@
+{
+  default_hide_dependency_lines: false
+  filename: "create"
+  group: "1847F1FBAEB401B6"
+  icon: { id: "create:mechanical_press" }
+  id: "0DFCFC480F3BD659"
+  order_index: 0
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "create:goggles" }
+      id: "0AA5A73357F45F2A"
+      tasks: [
+        {
+          id: "087E33FD7954EBCB"
+          type: "checkmark"
+        }
+      ]
+      x: -7.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["0AA5A73357F45F2A"]
+      icon: { id: "create:andesite_alloy" }
+      id: "4D2487AF1C914125"
+      tasks: [
+        {
+          id: "28C36641A1E1BAEC"
+          item: { count: 1, id: "create:andesite_alloy" }
+          type: "item"
+        }
+      ]
+      x: -5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["4D2487AF1C914125"]
+      icon: { id: "create:water_wheel" }
+      id: "72C6AF63FF32A837"
+      tasks: [
+        {
+          id: "71BE6EABC9C3905A"
+          item: { count: 1, id: "create:water_wheel" }
+          type: "item"
+        }
+      ]
+      x: -3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["72C6AF63FF32A837"]
+      icon: { id: "create:mechanical_press" }
+      id: "42C3DC8137D6FFE5"
+      tasks: [
+        {
+          id: "2AC14A5E513B42C8"
+          item: { count: 1, id: "create:mechanical_press" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["72C6AF63FF32A837"]
+      icon: { id: "create:mechanical_mixer" }
+      id: "705A059AF62E68C7"
+      tasks: [
+        {
+          id: "446602697E7916C6"
+          item: { count: 1, id: "create:mechanical_mixer" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["42C3DC8137D6FFE5" "705A059AF62E68C7"]
+      icon: { id: "create:brass_ingot" }
+      id: "10F03DBA01ACB2DF"
+      tasks: [
+        {
+          id: "6CDB0166D7EB23E6"
+          item: { count: 1, id: "create:brass_ingot" }
+          type: "item"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["10F03DBA01ACB2DF"]
+      icon: { id: "create:precision_mechanism" }
+      id: "52F72B2C2CAAFB9A"
+      tasks: [
+        {
+          id: "65F6D5EB1F569F5B"
+          item: { count: 1, id: "create:precision_mechanism" }
+          type: "item"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["52F72B2C2CAAFB9A"]
+      icon: { id: "create:mechanical_crafter" }
+      id: "1FAB06E4142909C4"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "397EB48C32E2E837"
+          item: { count: 1, id: "create:mechanical_crafter" }
+          type: "item"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  default_hide_dependency_lines: false
+  filename: "relics_artifacts"
+  group: "168218DA9FC3751D"
+  icon: { id: "relics:reflective_necklace" }
+  id: "2C424E56CCF5F3D9"
+  order_index: 2
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "relics:reflective_necklace" }
+      id: "231BF004D626AD8E"
+      tasks: [
+        {
+          id: "414F81E280BEF14B"
+          type: "checkmark"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["231BF004D626AD8E"]
+      icon: { id: "minecraft:chest" }
+      id: "2BB4CB2097849A2C"
+      tasks: [
+        {
+          id: "0ECBB5D1B097DBD9"
+          type: "checkmark"
+        }
+      ]
+      x: -2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["2BB4CB2097849A2C"]
+      icon: { id: "minecraft:barrier" }
+      id: "6C59F9FADF7CF5D0"
+      tasks: [
+        {
+          id: "2F44C5142FD18595"
+          type: "checkmark"
+        }
+      ]
+      x: 0.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["6C59F9FADF7CF5D0"]
+      icon: { id: "minecraft:spyglass" }
+      id: "5FC6EAD45561D800"
+      tasks: [
+        {
+          id: "7A059B627E416B33"
+          type: "checkmark"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["5FC6EAD45561D800"]
+      icon: { id: "relics:reflective_necklace" }
+      id: "718A423319CFDCBA"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "1C6136480ECA4BED"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  chapter.000A8F619EB22762.title: "Iron's Spells — Combat Language"
+  chapter.0AE2EC781AB73243.title: "Malum — Spirits \\& Meaning"
+  chapter.0C8A1B841C790673.title: "Mowzie's Mobs — Read the Fight"
+  chapter.0DFCFC480F3BD659.title: "Create — The First Workshop"
+  chapter.1C66A9D3C3921220.title: "Campaign Compass"
+  chapter.259BD3FC49D6FC8D.title: "Ars Nouveau — Theory \\& Utility"
+  chapter.2C424E56CCF5F3D9.title: "Relics \\& Artifacts"
+  chapter.3CC7398A9BF36997.title: "The Eyes of End"
+  chapter.3D3AA55A05746B7F.title: "Welcome, Wayfarer"
+  chapter.400712DF29A5695A.title: "Navigation \\& Archaeology"
+  chapter.458035548E9985F8.title: "Ancient Knowledge"
+  chapter.4753725F679D84B6.title: "Deeper and Darker — Beneath Silence"
+  chapter.4FA5006944D0C497.title: "Alex's Caves — Lost Biomes"
+  chapter.5529BB4F68F3980B.title: "Ice and Fire — Draconic Craft"
+  chapter.5D42A81CB25FA4C4.title: "Cataclysm — Apex Ruins"
+  chapter.711137B4ED15AD2C.title: "Truly Modular — The Heirloom"
+  chapter.767FEEFDD14A6BB9.title: "Aeronautics — The Flying Home"
+  chapter.7FE39870B88F20D1.title: "Unified Magic — One Spellbook"
+  chapter_group.0485BE44AE37FD25.title: "Start Here"
+  chapter_group.168218DA9FC3751D.title: "Knowledge \\& Navigation"
+  chapter_group.1847F1FBAEB401B6.title: "Engineering"
+  chapter_group.1D3BB10D1DC00FAD.title: "World \\& Adversaries"
+  chapter_group.6749A55FD6F01BFA.title: "Magic"
+  file.0000000000000001.title: "Creating Stories — Expedition Journal"
+  quest.0096A1318B33E5B9.quest_desc: ["The End portal accepts twelve distinct Eyes chosen from sixteen bosses. Four hunts may be skipped. The Dragon opens the End and the Source; it is a campaign threshold, not final victory.\\n\\nImportant knowledge has renewable routes, and essential structures have maps or an expensive Explorer's Compass fallback. The Antique Atlas records where you have travelled—it does not reveal an unexplored world.\\n\\nDeath begins a recovery expedition. Your corpse keeps the loss recoverable. Magical, boss, relic, powered, and spellcaster equipment remains special instead of being flattened into ordinary modular gear."]
+  quest.0096A1318B33E5B9.title: "The Rules This World Bends"
+  quest.00A5E59775C6228C.quest_desc: ["Use maps, the Atlas, roads, and the airship to push farther. This is where rare structures, spell knowledge, and dangerous biomes become deliberate targets.\\n\\nPrepare a route home before claiming a prize."]
+  quest.00A5E59775C6228C.title: "IV — Beyond the Safe Horizon"
+  quest.0352DFA24DFA2B90.quest_desc: ["Equip the bound spellbook in the Curios spellbook slot. Empty hands are valid: the integration resolves the equipped book after checking Iron's recorded casting item and both hands.\\n\\nOnly the candidate carrying the matching Ars proxy payload is accepted."]
+  quest.0352DFA24DFA2B90.title: "The Equipped Book Counts"
+  quest.037120AA99FB553F.quest_desc: ["The Nether is an industrial and military frontier. Secure transport, heat-resistant equipment, and a resupply point before treating it as a resource dimension.\\n\\nIts bosses and materials feed both the Eye hunt and advanced craft."]
+  quest.037120AA99FB553F.title: "V — The Furnace"
+  quest.0726DF8850E28E7F.quest_desc: ["The archaeology integration clears generated recipe displays when changing worlds in one client session.\\n\\nThis prevents stale registry-backed Ancient Books from breaking recipe synchronization. If a recipe viewer looks wrong after a world change, report it rather than rebuilding the pack data by hand."]
+  quest.0726DF8850E28E7F.title: "Safe Across Worlds"
+  quest.07CC7D75BA563A98.quest_desc: ["Turn water and motion into a visible Create workshop. Processing lines should become part of the settlement, not vanish into a single magic block.\\n\\nAndesite machinery is the first dependable form of mastery."]
+  quest.07CC7D75BA563A98.title: "II — The First Workshop"
+  quest.0876B0D08F9B0F4D.quest_desc: ["Modular bows follow the same inheritance: frame, descendants, and materials can be understood and replaced.\\n\\nLooted mundane ranged gear may convert; ability-bearing weapons remain protected."]
+  quest.0876B0D08F9B0F4D.title: "Truly Modular Archery"
+  quest.09E1FC358FB86CDD.quest_desc: ["Craft the Spellbook Binding ritual and place the valid Loom-created carrier with a real Iron's spellbook at the Ritual Brazier.\\n\\nThe ritual binds the Ars payload into that book. This is the supported progression route."]
+  quest.09E1FC358FB86CDD.title: "Spellbook Binding"
+  quest.0AA5A73357F45F2A.quest_desc: ["Create is the pack's industrial language. Rotation, belts, fluids, and moving assemblies should make the settlement legible.\\n\\nWhen a machine solves a problem, leave enough of it visible that another traveller can understand the solution."]
+  quest.0AA5A73357F45F2A.title: "Visible Work"
+  quest.0B0D0B4FCF673D86.quest_desc: ["The Archmage Spell Book marks deep Ars knowledge, but the campaign's final casting practice still converges on the equipped Iron's book.\\n\\nMastery means understanding both the constructed spell and the vessel that carries it."]
+  quest.0B0D0B4FCF673D86.title: "An Archmage's Grammar"
+  quest.0BF17C5C1206EBC7.quest_desc: ["The Altar of Fire points toward Ignis and the Burning Arena.\\n\\nPrepare fire resistance, sustained healing, and a Nether resupply route before committing."]
+  quest.0BF17C5C1206EBC7.title: "Altar of Fire"
+  quest.0D6A5674D909F573.quest_desc: ["One ship becomes a flying workshop; several ships become doctrine.\\n\\nSeparate exploration, cargo, rescue, and combat roles when the campaign reaches mastery. The final objective is not merely flight—it is a world made traversable."]
+  quest.0D6A5674D909F573.title: "From Drifter to Flotilla"
+  quest.0D99F3E4B1CDED98.quest_desc: ["Ars Nouveau and Iron's Spells are not parallel careers here. Their knowledge converges into one equipped Iron's spellbook, selected from Iron's native spell wheel, and paid from one shared mana pool.\\n\\nThe extra Iron's mana bar is hidden intentionally. One visible bar is the source of truth."]
+  quest.0D99F3E4B1CDED98.title: "One Casting Practice"
+  quest.0DA4CAFE66B7A5AD.quest_desc: ["The Enchanting Apparatus makes recipes spatial and readable.\\n\\nPedestals, reagents, and the central apparatus should form a ritual workspace whose state can be inspected."]
+  quest.0DA4CAFE66B7A5AD.title: "The Enchanting Apparatus"
+  quest.0EA62200B306C399.quest_desc: ["Any twelve completed Eye hunts open this route. All sixteen lines are shown because every Eye is valid; four may be left for later.\\n\\nPlace twelve distinct Eyes in the End portal, enter prepared for a recovery run, and defeat the Dragon.\\n\\nThe Dragon opens the late game. It does not end Creating Stories."]
+  quest.0EA62200B306C399.title: "The Ender Dragon — Opening the Source"
+  quest.0F2338472C2F2DC3.quest_desc: ["Restore the Ancient City's portal when you can support an expedition through it.\\n\\nMark the route, establish a recovery cache, and assume the first crossing is reconnaissance."]
+  quest.0F2338472C2F2DC3.title: "The Otherside Portal"
+  quest.10F03DBA01ACB2DF.quest_desc: ["Brass marks the move from simple motion to controlled logistics.\\n\\nSecure the Nether route and build enough capacity that brass mechanisms are infrastructure, not curiosities."]
+  quest.10F03DBA01ACB2DF.title: "The Brass Threshold"
+  quest.10F3BB384EDD8AEB.quest_desc: ["Hunt: Hullbreaker.\\n\\nRegion: the Abyssal Chasm.\\n\\nA player kill guarantees the Black Eye. Bring underwater mobility, a retreat route, and a way to recover gear from depth."]
+  quest.10F3BB384EDD8AEB.title: "Black Eye — Hullbreaker"
+  quest.116A8A66E58FEB15.quest_desc: ["Maledictus yields the Cursed Eye, Leviathan the Exotic Eye, Ignis the Nether Eye, and Ancient Remnant the Old Eye.\\n\\nYou need only twelve of all sixteen Eyes. Choose these fights when your route and equipment make sense."]
+  quest.116A8A66E58FEB15.title: "Four Cataclysm Eyes"
+  quest.12A94ABFCAE71002.quest_desc: ["Hunt: Ignis.\\n\\nStructure: Burning Arena.\\n\\nFire protection is only the first layer. Build a resupply route before challenging the arena."]
+  quest.12A94ABFCAE71002.title: "Nether Eye — Ignis"
+  quest.13CA07E3239A194C.quest_desc: ["The Altar of Amethyst extends the ruin network into another distinct encounter language.\\n\\nTreat every altar as a warning to finish preparation before activation."]
+  quest.13CA07E3239A194C.title: "Altar of Amethyst"
+  quest.147AA46E86F57745.quest_desc: ["The Novice Spell Book teaches how glyphs become a sentence.\\n\\nStart with reliable movement, light, breaking, and controlled combat effects. A useful spell is one you can afford to cast repeatedly."]
+  quest.147AA46E86F57745.title: "A Novice Vocabulary"
+  quest.1655269464134D15.quest_desc: ["A Diamond Spellbook belongs in difficult structure and boss expeditions.\\n\\nTest native Iron's spells and bound Ars proxies after every major equipment change."]
+  quest.1655269464134D15.title: "Expedition-Grade Casting"
+  quest.175BBE10FC2A6CA9.quest_desc: ["The Inscription Table manages native Iron's spells and scroll inscription.\\n\\nLoom carriers from the unified integration are not valid inputs. Bind those at the Ars Ritual Brazier instead."]
+  quest.175BBE10FC2A6CA9.title: "The Inscription Table"
+  quest.19619EB755E629D1.quest_desc: ["Dragonsteel comes from the Dragonforge. Boss weapons remain unique sidegrades. Relics, powered tools, and spellcaster equipment keep the abilities that make them meaningful.\\n\\nThe modular system owns ordinary craft and long-lived personal equipment; it does not consume every special item in the pack."]
+  quest.19619EB755E629D1.title: "Exceptions Are Deliberate"
+  quest.19CFD4FD5CFD0502.quest_desc: ["Iron's spellbooks are the physical home of the unified casting practice.\\n\\nBegin with capacity you can afford. A spellbook is equipment, not a one-time crafting gate."]
+  quest.19CFD4FD5CFD0502.title: "A Copper Spellbook"
+  quest.1A658828B3F82626.quest_desc: ["Find the Wrought Chamber and face the Ferrous Wroughtnaut.\\n\\nIts armor has an answer. Discover the opening instead of treating the encounter as a damage wall."]
+  quest.1A658828B3F82626.title: "Ferrous Wroughtnaut"
+  quest.1D8553575867712E.quest_desc: ["The Spirit Altar establishes a place for spirit-work.\\n\\nKeep jars and reagents nearby. A coherent occult workshop makes later recipes easier to understand and recover."]
+  quest.1D8553575867712E.title: "The Spirit Altar"
+  quest.1E3E584A5CB72D74.quest_desc: ["Essential targets should have a discoverable route: cartographer maps, structure loot maps, or information found during exploration.\\n\\nUse the world as evidence. Blind required searching is not the intended difficulty."]
+  quest.1E3E584A5CB72D74.title: "Maps Before Guesswork"
+  quest.1EB2CEAD50A4501E.quest_desc: ["The Adjustable Burner belongs to the ship's growing engine room.\\n\\nFuel range and flight range should become expedition planning problems, not an invisible timer."]
+  quest.1EB2CEAD50A4501E.title: "Adjustable Heat"
+  quest.1EB3085373F4E503.quest_desc: ["The Wooden Propeller is early thrust. Place propulsion where moving parts have clearance and the pilot can inspect them."]
+  quest.1EB3085373F4E503.title: "Wooden Propeller"
+  quest.1F306B97490CF1D1.quest_desc: ["The Worn Notebook is the primary Ars reference. Use it beside this campaign guide for glyph details and apparatus mechanics.\\n\\nIn Creating Stories, Ars is theory, utility, and constructed spellcraft—not a replacement factory for Create."]
+  quest.1F306B97490CF1D1.title: "Read the Worn Notebook"
+  quest.1FAB06E4142909C4.quest_desc: ["Mechanical Crafters are a late workshop language for complex shapes.\\n\\nUse them where their visible choreography adds meaning; the goal is a workshop with character, not the smallest possible box."]
+  quest.1FAB06E4142909C4.title: "Machines That Assemble"
+  quest.20044CE4F30F1640.quest_desc: ["Keep boss weapons as specialized answers rather than feeding them into a universal tier ladder.\\n\\nA mature arsenal contains tools with different stories and purposes."]
+  quest.20044CE4F30F1640.title: "Apex Sidegrades"
+  quest.20516E28A6490E2A.quest_desc: ["Hunt: Cyclops.\\n\\nStructure: Cyclops Cave.\\n\\nIts cave is both lair and trap. Scout entrances before turning the fight loud."]
+  quest.20516E28A6490E2A.title: "Rogue Eye — Cyclops"
+  quest.207B88BAA80A83CD.quest_desc: ["Creating Stories is a rustic fantasy expedition pack. Build visible machinery, cross a dangerous world, study several magical traditions, and turn temporary camps into places with history.\\n\\nThe core of the journey is Create engineering, Aeronautics airships, Truly Modular equipment, unified Ars Nouveau and Iron's spellcasting, Malum spirit-work, and exploration through Ice and Fire, Cataclysm, Mowzie's Mobs, Alex's Caves, and Deeper and Darker.\\n\\nRead the book as a field guide, not a checklist. Chapters explain preparations and milestones; they do not replace experimentation."]
+  quest.207B88BAA80A83CD.title: "A World Worth Crossing"
+  quest.20B2F8C42183C50E.quest_desc: ["The Licowitch guards the Witch Eye route in the Candy Cavity.\\n\\nBrightness is camouflage. Prepare for a magical duel with cover and cleansing."]
+  quest.20B2F8C42183C50E.title: "Licowitch"
+  quest.20BE8316841B8E37.quest_desc: ["Dragonsteel is a late expedition material and a valid expression of mastery.\\n\\nIt does not erase boss weapons or relics. Those remain unique sidegrades with their own reasons to exist."]
+  quest.20BE8316841B8E37.title: "Dragonsteel"
+  quest.231BF004D626AD8E.quest_desc: ["Relics and Artifacts are exploration sidegrades. Their meaning comes from finding them in places that fit their theme, not from a universal reward bag.\\n\\nAbility-bearing relics remain outside ordinary modular conversion."]
+  quest.231BF004D626AD8E.title: "Themed Finds First"
+  quest.23438CBADC16F6EF.quest_desc: ["Malum begins with its Encyclopedia Arcana. Its progression is symbolic and material: spirits, runewood, soulwood, altars, and runes each carry meaning.\\n\\nRead entries as ritual instructions, not decoration."]
+  quest.23438CBADC16F6EF.title: "Encyclopedia Arcana"
+  quest.25FBE82741E5980D.quest_desc: ["The Explorer's Compass is an expensive post-Wither fallback when normal map routes fail.\\n\\nIt is not the first answer and should not erase exploration; it prevents essential progression from becoming an endless seed lottery."]
+  quest.25FBE82741E5980D.title: "Explorer's Compass — The Fallback"
+  quest.262C8DBDCDB59A27.quest_desc: ["Hunt: an Elder Guardian.\\n\\nStructure: Ocean Monument.\\n\\nMilk handles mining fatigue; it does not replace breathing, navigation, or an exit plan."]
+  quest.262C8DBDCDB59A27.title: "Guardian Eye — Elder Guardian"
+  quest.275E08BEBD1B8E7B.quest_desc: ["The Modular Workbench is where ordinary equipment becomes a persistent creation.\\n\\nParts can be replaced and salvaged through their hierarchy. Read the preview before committing a valuable material."]
+  quest.275E08BEBD1B8E7B.title: "The Modular Workbench"
+  quest.27FE2F589398C6D7.quest_desc: ["The Mechanical Fusion Anvil turns apex spoils into deliberate equipment choices.\\n\\nBoss gear remains protected from ordinary automatic modular conversion so its abilities and identity survive."]
+  quest.27FE2F589398C6D7.title: "Mechanical Fusion Anvil"
+  quest.2904AD0EACCA52AA.quest_desc: ["The Abyssal Altar anchors progression in the dangerous oceanic depths.\\n\\nBuild underwater mobility and recovery capacity before carrying valuable equipment into the Chasm."]
+  quest.2904AD0EACCA52AA.title: "Abyssal Altar"
+  quest.29732D1BEC0B39F1.quest_desc: ["Hunt: Ancient Remnant.\\n\\nStructure: Cursed Pyramid.\\n\\nOpen ground and heavy impacts punish panic. Prepare mobility and a clean battlefield."]
+  quest.29732D1BEC0B39F1.title: "Old Eye — Ancient Remnant"
+  quest.2ABED34FD0661E85.quest_desc: ["Complete a defended Dragonforge facility, secure renewable support materials, and keep specialized equipment for different dragon elements.\\n\\nThe achievement is not merely an ingot. It is the infrastructure and doctrine required to make another safely."]
+  quest.2ABED34FD0661E85.title: "A Draconic Facility"
+  quest.2AF6BCA2444FE02A.quest_desc: ["Three Ice and Fire hunts carry Eyes: Gorgon for the Evil Eye, Cyclops for the Rogue Eye, and Dread Lich for the Undead Eye.\\n\\nTheir structures and counterplay differ. Consult the Eye chapter before choosing which twelve hunts fit your expedition."]
+  quest.2AF6BCA2444FE02A.title: "Gorgon, Cyclops, Dread Lich"
+  quest.2BB4CB2097849A2C.quest_desc: ["A matching themed Relics entry receives its normal twenty-percent attempt.\\n\\nOnly when that produces nothing does the curator roll a two-percent Overworld fallback pool. A low item weight alone would not create this behavior, so the pack owns the selection logic."]
+  quest.2BB4CB2097849A2C.title: "How the Curator Rolls"
+  quest.2C5619475E9DEE6E.quest_desc: ["The Imbuement Chamber is an early bridge from resources to Source craft.\\n\\nGive magical apparatus a deliberate study space rather than scattering it between unrelated machines."]
+  quest.2C5619475E9DEE6E.title: "The Imbuement Chamber"
+  quest.2C8BC4181DFCCE32.quest_desc: ["The Propeller Bearing converts Create rotation into useful thrust.\\n\\nTreat controls, power transmission, and emergency shutdown as one system."]
+  quest.2C8BC4181DFCCE32.title: "Propeller Bearing"
+  quest.2CDB88694A039E79.quest_desc: ["Iron's owns active combat schools, found scrolls, and encounter magic. Ars owns theory, utility, and constructed spells. Malum owns spirits, runes, and soul behavior.\\n\\nArs automation that replaces Create's workshop role is outside this pack's intended path."]
+  quest.2CDB88694A039E79.title: "Three Traditions, Clear Ownership"
+  quest.2D603BE3CCCB7725.quest_desc: ["The Altar of Void marks another branch of Cataclysm's apex progression.\\n\\nEven when a boss is not required for an Eye, its arena and unique equipment remain meaningful side objectives."]
+  quest.2D603BE3CCCB7725.title: "Altar of Void"
+  quest.2DC941BC6BFDA4E0.quest_desc: ["Do not put an Ars 'n Spells Loom carrier into Iron's Inscription Table. That invalid route can crash the current Inscription Table screen.\\n\\nCarry it to an Ars Ritual Brazier and use the binding ritual described next."]
+  quest.2DC941BC6BFDA4E0.title: "Handle the Carrier Safely"
+  quest.2EC3F888998E0E94.quest_desc: ["Aeronautics turns Create machinery into a physical expedition vessel. The first craft should be modest: shelter, controls, storage, and a safe place to stand.\\n\\nSable supplies the physics beneath the craft. Aeronautics supplies the pieces you build and operate."]
+  quest.2EC3F888998E0E94.title: "A Ship, Not a Mount"
+  quest.30DD1E802204537E.quest_desc: ["Raise two persistent creations: a modular masterwork that can be repaired and rebuilt, and an airship that grows from flying tent to mobile workshop and finally a true expedition vessel.\\n\\nLearn three connected magical languages. Iron's handles active combat, Ars handles theory and utility, and Malum handles spirits, runes, and soul behavior. Ars and Iron's ultimately cast through one equipped spellbook and one mana pool.\\n\\nThe long victory is mastery: a defended fortress, functioning infrastructure, apex hunts completed, and a flotilla capable of carrying the story beyond the Dragon."]
+  quest.30DD1E802204537E.title: "What You Are Building Toward"
+  quest.31D39803962CC13E.quest_desc: ["Store spare books, maps, tablets, Bestiaries, notebooks, and field records together.\\n\\nA library turns scattered discoveries into shared infrastructure and makes late-game preparation faster for every traveller."]
+  quest.31D39803962CC13E.title: "Build the Expedition Library"
+  quest.32CC137218763902.quest_desc: ["Hunt: Frostmaw.\\n\\nRegion: frozen wilderness.\\n\\nIts stillness is a warning, not scenery. Read the arena before waking it."]
+  quest.32CC137218763902.title: "Cold Eye — Frostmaw"
+  quest.3308F91046EF6007.quest_desc: ["Sculk Bone carries the material language of the deep.\\n\\nKeep samples and learn their recipes before spending everything on a single attempt."]
+  quest.3308F91046EF6007.title: "Sculk Bone"
+  quest.333D4C39C5BF15E3.quest_desc: ["The Cave Book records what the biomes teach.\\n\\nUse it as the mechanical reference and this chapter as the campaign map."]
+  quest.333D4C39C5BF15E3.title: "Cave Compendium"
+  quest.33DCA866A2FD09CF.quest_desc: ["Hunt: Licowitch.\\n\\nRegion: Candy Cavity.\\n\\nThe bright biome conceals a serious spellcaster. Bring cleansing, cover, and controlled damage."]
+  quest.33DCA866A2FD09CF.title: "Witch Eye — Licowitch"
+  quest.340EDDFF74496CE2.quest_desc: ["Hunt: Archevoker.\\n\\nStructure: Evoker Fort.\\n\\nControl the room and its summons. Spell resistance and ranged answers earn their weight here."]
+  quest.340EDDFF74496CE2.title: "Magical Eye — Archevoker"
+  quest.344FE8D801719468.quest_desc: ["Ancient Cities and the Otherside reward patience more than damage. Sound, darkness, and escape routes matter.\\n\\nThe Stalker guards one of the sixteen Eyes; reaching it should feel like an expedition beneath the known world."]
+  quest.344FE8D801719468.title: "VI — Beneath Silence"
+  quest.36639624A32C7F7C.quest_desc: ["Ancient knowledge is not allowed to become a finite single-player monopoly.\\n\\nCreate Enchantment Industry provides the printer route for renewable copies once the workshop is advanced enough."]
+  quest.36639624A32C7F7C.title: "A Renewable Archive"
+  quest.3791FB4494FD96BD.quest_desc: ["The Ritual Brazier owns one-shot rituals, including the pack's Spellbook Binding route.\\n\\nFor a valid Loom carrier and Iron spellbook, allow the ritual to finish and bind the payload before removing anything."]
+  quest.3791FB4494FD96BD.title: "The Ritual Brazier"
+  quest.37E524E41DE2F956.quest_desc: ["An Ancient Book is a piece of recoverable knowledge.\\n\\nJust Enough Archaeology displays supported brushing routes, while structure loot keeps the discovery tied to appropriate places."]
+  quest.37E524E41DE2F956.title: "Ancient Book"
+  quest.39DA7ED7F11E321C.quest_desc: ["A Modular Sword is a beginning, not a disposable tier.\\n\\nReplace worn or outgrown parts instead of abandoning the identity of the weapon."]
+  quest.39DA7ED7F11E321C.title: "A Blade With a Future"
+  quest.3AE763173AC72CD0.quest_desc: ["Mowzie's encounters communicate openings through animation and position.\\n\\nObserve first. A modular masterwork helps, but it cannot replace reading the fight."]
+  quest.3AE763173AC72CD0.title: "Pattern Before Power"
+  quest.3E529131CDFE1ACF.quest_desc: ["Dragonsteel is made only through the Dragonforge. This preserves the scale, danger, and infrastructure of draconic metallurgy.\\n\\nBuild the forge as a major facility. Fire, ice, and lightning each demand their own understanding."]
+  quest.3E529131CDFE1ACF.title: "The Dragonforge"
+  quest.3F58421E267A0A82.quest_desc: ["A Modular Pickaxe carries workshop history into every mine.\\n\\nPack-owned zinc, brass, rose-quartz, and canonical copper materials connect the equipment system to the wider workshop."]
+  quest.3F58421E267A0A82.title: "A Working Tool"
+  quest.4041C2C61BF7DD4F.quest_desc: ["The Spirit Crucible refines the material side of soul magic.\\n\\nUnlike Ars spell construction or Iron's combat schools, Malum's identity is transformation through spirits and resonance."]
+  quest.4041C2C61BF7DD4F.title: "The Spirit Crucible"
+  quest.42C3DC8137D6FFE5.quest_desc: ["The Mechanical Press turns rotational power into repeatable processing. Give it a depot or belt and space to become part of a line."]
+  quest.42C3DC8137D6FFE5.title: "Mechanical Pressure"
+  quest.4327930A575C2411.quest_desc: ["The Bestiary is your field authority on dragons, gorgons, cyclopes, dread creatures, and their materials.\\n\\nStudy before hunting. Most Ice and Fire encounters punish ignorance more sharply than low damage."]
+  quest.4327930A575C2411.title: "The Bestiary"
+  quest.474F04001618E919.quest_desc: ["The Dragonskin Spellbook joins exploration, dragon hunting, and magical mastery.\\n\\nIt is a late campaign tool, not the end of practice. Schools, spell choice, and preparation still decide encounters."]
+  quest.474F04001618E919.title: "Draconic Binding"
+  quest.4878BD5DD40582DD.quest_desc: ["Cataclysm bosses are tied to monumental ruins. The approach, arena, and retreat path are part of each fight.\\n\\nDo not drag an apex encounter into infrastructure you cannot afford to lose."]
+  quest.4878BD5DD40582DD.title: "Structures Are Arenas"
+  quest.491D43B596ED36D6.quest_desc: ["Hunt: Ferrous Wroughtnaut.\\n\\nStructure: Wrought Chamber.\\n\\nArmor is not an invitation to trade blows. Observe the pattern and strike the opening."]
+  quest.491D43B596ED36D6.title: "Lost Eye — Ferrous Wroughtnaut"
+  quest.4D2487AF1C914125.quest_desc: ["Andesite Alloy begins dependable mechanical construction.\\n\\nUse JEI for the current recipe. This book marks purpose and sequence, not every ingredient."]
+  quest.4D2487AF1C914125.title: "Andesite Foundations"
+  quest.4DBE7439AC57DC86.quest_desc: ["A successful expedition returns with knowledge, an Eye, and a route another player can follow.\\n\\nThe real milestone is making the unknown reachable twice."]
+  quest.4DBE7439AC57DC86.title: "Return From the Otherside"
+  quest.4E2719A9C53222D3.quest_desc: ["The Arcane Anvil supports the maintenance and advancement of magical equipment.\\n\\nTreat combat magic as a loadout: range, control, escape, and damage all compete for limited slots."]
+  quest.4E2719A9C53222D3.title: "The Arcane Anvil"
+  quest.4F0FCB708EF96D63.quest_desc: ["Find the Ancient Temple in the Otherside and defeat the Stalker.\\n\\nThe kill guarantees the Cryptic Eye when credited to a player."]
+  quest.4F0FCB708EF96D63.title: "The Stalker"
+  quest.4F2C75F3B7F6717A.quest_desc: ["The Heart of Iron belongs to the industrial strangeness of the Magnetic Caves.\\n\\nRare biome materials should become reasons to return, not one-time checklist trophies."]
+  quest.4F2C75F3B7F6717A.title: "Heart of Iron"
+  quest.501CE98C32832A61.quest_desc: ["An Unidentified Artifact is evidence awaiting interpretation.\\n\\nIntegrated Dungeons and Structures and Integrated Villages contribute additional brush-table mappings; dig-site fossiliferous dirt is a deliberate route."]
+  quest.501CE98C32832A61.title: "Unidentified Artifact"
+  quest.51BCBABF19DCCD06.quest_desc: ["The Ice Crystal is a specialized trophy and tool, not merely another material tier.\\n\\nAbility-bearing equipment keeps its native behavior in Creating Stories."]
+  quest.51BCBABF19DCCD06.title: "Ice Crystal"
+  quest.52AB5049635B29E2.quest_desc: ["Cave Tablets begin the search for Alex's Caves biomes.\\n\\nTreat each biome as an expedition region with its own hazards, resources, and extraction problem."]
+  quest.52AB5049635B29E2.title: "Cave Tablet"
+  quest.52D0548A681C6E96.quest_desc: ["Dragonbone turns a successful hunt into durable craft.\\n\\nOrdinary copper tools may enter the modular ecosystem; draconic materials and ability-bearing gear keep their special routes."]
+  quest.52D0548A681C6E96.title: "Dragonbone"
+  quest.52F72B2C2CAAFB9A.quest_desc: ["Precision Mechanisms reward reliable sequencing. A good line can be observed, repaired, and expanded without dismantling the workshop."]
+  quest.52F72B2C2CAAFB9A.title: "Precision Mechanisms"
+  quest.5388F8FBAC83A509.quest_desc: ["The Lost Eye and Cold Eye point to different combat lessons: patient openings and environmental preparation.\\n\\nComplete either, both, or leave one among the four hunts you skip before the Dragon."]
+  quest.5388F8FBAC83A509.title: "Two Eyes, Two Lessons"
+  quest.56175379B57E4004.quest_desc: ["Detached parts and complete equipment retain readable names, including generated materials.\\n\\nSalvage is hierarchy-safe: replacing a parent module must not silently erase valuable descendants. Inspect what returns before rebuilding."]
+  quest.56175379B57E4004.title: "Parts Survive Change"
+  quest.56F7DCB742CECBB9.quest_desc: ["The Spell Loom exports a constructed Ars spell into an Iron-compatible carrier.\\n\\nSupply the Ars spell source and the required blank Iron scroll. The resulting carrier is an intermediate, not a normal Iron spell scroll."]
+  quest.56F7DCB742CECBB9.title: "The Spell Loom"
+  quest.57344BEF5F844A3A.quest_desc: ["Choose one modular weapon or tool to carry across the campaign. Repair it, replace its parts, and let its construction record the places you reached.\\n\\nMastery is not the highest material alone. It is a piece of equipment whose history you can explain."]
+  quest.57344BEF5F844A3A.title: "Name the Masterwork"
+  quest.575D4F002F94D878.quest_desc: ["Hunt: the Stalker.\\n\\nStructure: Ancient Temple in the Otherside.\\n\\nSilence and escape planning matter more than a reckless damage race."]
+  quest.575D4F002F94D878.title: "Cryptic Eye — Stalker"
+  quest.576C598047DD3349.quest_desc: ["Survive first contact. Find food, shelter, a defensible camp, and enough bearings to return after a bad night.\\n\\nYou are not expected to conquer every nearby ruin. Learn what to avoid and mark it for later."]
+  quest.576C598047DD3349.title: "I — Prey"
+  quest.599F8820A8616A2C.quest_desc: ["Hunt: the Dead King.\\n\\nStructure: Catacombs.\\n\\nExpect a spell duel in confined ground. Carry cover, healing, and an answer to undead pressure."]
+  quest.599F8820A8616A2C.title: "Corrupted Eye — Dead King"
+  quest.5BA2C832DFE94B62.quest_desc: ["Hunt: Gorgon.\\n\\nStructure: Gorgon Temple.\\n\\nDo not meet a petrifying gaze unprepared. The best victory begins before entering the chamber."]
+  quest.5BA2C832DFE94B62.title: "Evil Eye — Gorgon"
+  quest.5BEFA48E5095AB71.quest_desc: ["Soul Crystals connect the biome's danger to later craft.\\n\\nThe pack's knowledge routes are intended to remain renewable and multiplayer-safe; preserve shared access."]
+  quest.5BEFA48E5095AB71.title: "Soul Crystal"
+  quest.5D101BCC15AF89BF.quest_desc: ["Assemble a small Aeronautics craft: closer to a flying tent than a warship.\\n\\nIts purpose is range, shelter, and recovery. Every later expedition should leave the craft more capable than before."]
+  quest.5D101BCC15AF89BF.title: "III — The Drifter"
+  quest.5DF163790B1A348D.quest_desc: ["Archaeology expands the meaning of structures beyond chests. Bring a brush when ruins, dig sites, or suspicious blocks suggest a slower search.\\n\\nBrush routes are tracked in Just Enough Archaeology, including pack integrations."]
+  quest.5DF163790B1A348D.title: "A Better Brush"
+  quest.5F540531A36DE71B.quest_desc: ["The Heart of the Deep is the key material in the path beyond the Ancient City.\\n\\nSecure it without turning every visit into an unrecoverable equipment loss."]
+  quest.5F540531A36DE71B.title: "Heart of the Deep"
+  quest.5FC6EAD45561D800.quest_desc: ["Relic Loot Viewer reads the curator's actual data and shows whether an item has a themed route or only the lucky fallback.\\n\\nUse that display before farming a structure whose theme does not match the relic you want."]
+  quest.5FC6EAD45561D800.title: "JEI Shows the Real Route"
+  quest.5FF7C062EBBF1D06.quest_desc: ["The Arcana Pylon extends the ritual workshop beyond a single block.\\n\\nSpace and arrangement are part of the craft; leave room for the system to grow."]
+  quest.5FF7C062EBBF1D06.title: "Arcana in the Room"
+  quest.60ABD32C521DE554.quest_desc: ["Defeat the Ender Dragon and open access to the End's deeper resources and possibilities.\\n\\nThis is the opening of the late game, not the credits roll."]
+  quest.60ABD32C521DE554.title: "VIII — The Source"
+  quest.60B1DBB02608163B.quest_desc: ["Select the proxy through Iron's native wheel and cast. A successful constructed spell must produce its real Ars effect—not merely a sound or hand animation.\\n\\nRight-click casts. Sneak-right-click can cycle where appropriate. Mana must be charged once."]
+  quest.60B1DBB02608163B.title: "Wheel, Cast, Confirm"
+  quest.63B692F359F9728A.quest_desc: ["Hunt: the Leviathan.\\n\\nStructure: Sunken City.\\n\\nThis is a deep-water siege. Plan air, mobility, ranged pressure, and corpse recovery."]
+  quest.63B692F359F9728A.title: "Exotic Eye — Leviathan"
+  quest.64FF5C8B7505A4FD.quest_desc: ["Ancient Books and powerful enchantments are tied to themed structures and archaeology rather than one generic chest table.\\n\\nWhere you search should matter as much as how long you search."]
+  quest.64FF5C8B7505A4FD.title: "Knowledge Has a Place"
+  quest.6541A1F8A146C5D3.quest_desc: ["Runewood begins Malum's living material progression.\\n\\nPlant what you can renew. Essential knowledge and basic magical materials should remain multiplayer-safe."]
+  quest.6541A1F8A146C5D3.title: "Runewood"
+  quest.68B1DE9E352A4B66.quest_desc: ["On a server, mark entrances and avoid destroying unique access points. Essential knowledge is designed to be renewable, but good expedition practice still matters.\\n\\nA map annotation can be as valuable as the loot you carried home."]
+  quest.68B1DE9E352A4B66.title: "Leave a Route for the Next Traveller"
+  quest.69474E7868344A6F.quest_desc: ["Ancient Cities reward controlled movement, wool, distraction, and a known exit.\\n\\nTreat the Warden as a disaster to manage, not a routine loot pinata."]
+  quest.69474E7868344A6F.title: "The City Is Listening"
+  quest.698E0BB317B0FE9E.quest_desc: ["The Atlas records explored terrain and your own markers. It does not reveal an unexplored world.\\n\\nMark boss arenas, recovery caches, ports, Ancient Cities, dragon territories, and safe airship moorings."]
+  quest.698E0BB317B0FE9E.title: "The Antique Atlas"
+  quest.69C5647EB4184660.quest_desc: ["A mature archive has a source, a renewable route where required, and enough documentation that another player can repeat the discovery.\\n\\nThat is the pack's standard for progression-safe knowledge."]
+  quest.69C5647EB4184660.title: "Knowledge That Survives the Expedition"
+  quest.69EC435C6C161386.quest_desc: ["Modular armor extends the masterwork idea to protection.\\n\\nAutomatic conversion is conservative. Mundane material variants may convert; magical, boss, relic, powered, and spellcaster armor keeps its original identity."]
+  quest.69EC435C6C161386.title: "Truly Modular Armory"
+  quest.6A070FBDE512768D.quest_desc: ["The Altar of Abyss belongs to the Leviathan's path.\\n\\nUnderwater boss preparation must include air, three-dimensional mobility, ranged pressure, and gear recovery."]
+  quest.6A070FBDE512768D.title: "Altar of Abyss"
+  quest.6B17B709C348BBE1.quest_desc: ["A Smart Propeller belongs on a mature expedition craft.\\n\\nBy this point the vessel should carry a workshop function, navigation supplies, and a clear role in the flotilla."]
+  quest.6B17B709C348BBE1.title: "Smart Propulsion"
+  quest.6B3B31CB2B459EF7.quest_desc: ["A Gyroscopic Propeller Bearing improves control as the vessel becomes heavier and more ambitious.\\n\\nUpgrade the frame, access paths, and recovery supplies alongside the controls."]
+  quest.6B3B31CB2B459EF7.title: "Gyroscopic Control"
+  quest.6C59F9FADF7CF5D0.quest_desc: ["The curator does not add a fallback when generated loot already contains a configured artifact or any Relics item.\\n\\nThe native Relics loot modifier is intentionally disabled while the curator is installed."]
+  quest.6C59F9FADF7CF5D0.title: "No Double Reward"
+  quest.6EC030D87854492C.quest_desc: ["A White Envelope is the beginning of deliberate lift.\\n\\nBalance mass and layout before decorating. A beautiful wreck is still a wreck."]
+  quest.6EC030D87854492C.title: "Lift Envelope"
+  quest.6EDD62B7B372E947.quest_desc: ["Do not strip each cave and abandon it. Mark safe access, preserve routes, and return when later systems reveal new uses.\\n\\nThe Atlas records your travel; it does not reveal which darkness contains the next biome."]
+  quest.6EDD62B7B372E947.title: "Five Biomes, Repeat Expeditions"
+  quest.6F6CB583961B52D7.quest_desc: ["Source Gems are the portable material language of Ars.\\n\\nBuild renewable, visible support for the magic you actually use. Keep heavy industrial work in the Create workshop."]
+  quest.6F6CB583961B52D7.title: "Condensed Source"
+  quest.6FDC26A02830B5D2.quest_desc: ["Complete the systems you chose to own: a fortress, a mature workshop, an heirloom armament, coherent magic, and an expedition flotilla.\\n\\nA finished story is measured by what the world now contains because you crossed it."]
+  quest.6FDC26A02830B5D2.title: "IX — Mastery"
+  quest.705A059AF62E68C7.quest_desc: ["A Mechanical Mixer and Basin open alloying and bulk processing.\\n\\nHeat, speed, and recipe order are physical constraints. Design around them."]
+  quest.705A059AF62E68C7.title: "Controlled Mixtures"
+  quest.70987EA89729DB47.quest_desc: ["Hunt: the Wither.\\n\\nArena: your choice.\\n\\nChoose the battlefield as carefully as the equipment. Keep the destruction away from infrastructure you intend to keep."]
+  quest.70987EA89729DB47.title: "Wither Eye — The Wither"
+  quest.70F7E8F8A0EAD703.quest_desc: ["Spirit Jars turn a fleeting drop into managed magical stock.\\n\\nCollect deliberately. Different prey and places produce different colors and uses."]
+  quest.70F7E8F8A0EAD703.title: "Contain the Harvest"
+  quest.718A423319CFDCBA.quest_desc: ["Keep relics as a collection of specialized expedition tools. Choose them for a route, boss, or recovery problem.\\n\\nMastery is knowing which strange object belongs in the satchel today."]
+  quest.718A423319CFDCBA.title: "A Cabinet of Sidegrades"
+  quest.72C6AF63FF32A837.quest_desc: ["A Water Wheel is stable early power. Build room for shafts, gearboxes, and later expansion instead of burying the source in a wall."]
+  quest.72C6AF63FF32A837.title: "First Rotation"
+  quest.732916B817472CB1.quest_desc: ["A dragon skull records the age and element of a defeated dragon.\\n\\nThe journey from scavenged remains to deliberate dragon hunts should be visible in your equipment and trophy hall."]
+  quest.732916B817472CB1.title: "Proof of Scale"
+  quest.74F2C234A6FD20A8.quest_desc: ["The Wrought Axe is a boss sidegrade with its own identity.\\n\\nIt remains protected from ordinary modular conversion. Keep it for the role it performs."]
+  quest.74F2C234A6FD20A8.title: "Wrought Axe"
+  quest.750D808970C291E6.quest_desc: ["Scrolls turn exploration into magical growth. Towers, forts, catacombs, and dangerous libraries matter because knowledge has a place in the world.\\n\\nKeep useful duplicates; the Inscription Table and Arcane Anvil give them later purpose."]
+  quest.750D808970C291E6.title: "Knowledge in the Wild"
+  quest.7553DE6F9D878DA1.quest_desc: ["The Archaeology Table turns recovered fragments into readable progress.\\n\\nKeep a field chest for shards and unidentified finds rather than discarding incomplete sets."]
+  quest.7553DE6F9D878DA1.title: "The Archaeology Table"
+  quest.77765766435C256B.quest_desc: ["The Spirit Catalyzer deepens the workshop's transformations.\\n\\nBy this stage, spirit supply should be planned like any other expedition resource."]
+  quest.77765766435C256B.title: "Catalyzed Spirits"
+  quest.790C1832D45C879A.quest_desc: ["Runes turn Malum's spirit economy into persistent capability.\\n\\nThis rune represents the point where soul-work can meaningfully support the unified caster without losing its own identity."]
+  quest.790C1832D45C879A.title: "Rune of Spell Mastery"
+  quest.7A483A129DA719EF.quest_desc: ["The Hullbreaker guards the Black Eye route in the Abyssal Chasm.\\n\\nDeep water makes corpse recovery and escape part of the encounter. Prepare both before the kill."]
+  quest.7A483A129DA719EF.title: "Hullbreaker"
+  quest.7AAB016003C2082D.quest_desc: ["Hunt: Dread Lich.\\n\\nStructure: Dread Mausoleum.\\n\\nExpect summons and sustained undead pressure. Secure the corridors behind you."]
+  quest.7AAB016003C2082D.title: "Undead Eye — Dread Lich"
+  quest.7AE77B2A9671C855.quest_desc: ["Find a sleeping Frostmaw in frozen country.\\n\\nPrepare the arena and retreat before waking it. Victory yields progress toward the Cold Eye route."]
+  quest.7AE77B2A9671C855.title: "Frostmaw"
+  quest.7C2F9F177C69D7EB.quest_desc: ["By now, workshops, spell traditions, and boss hunts intersect. Collect any twelve distinct Eyes and prepare the portal.\\n\\nThe four skipped Eyes are choices, not failures. Return later if the hunt still calls."]
+  quest.7C2F9F177C69D7EB.title: "VII — The Opening Source"
+  quest.7C90EBD440183B15.quest_desc: ["A Gold Spellbook expands the practical spell loadout. Upgrade when the new capacity changes how you prepare, not merely because a tier exists."]
+  quest.7C90EBD440183B15.title: "A Larger Repertoire"
+  quest.7D78491C62EC265E.quest_desc: ["The Scribe's Table expands the glyph vocabulary.\\n\\nNew glyphs are capability milestones. Test them in small spells before binding complicated constructions into the unified book."]
+  quest.7D78491C62EC265E.title: "The Scribe's Table"
+  quest.7FD4C2B27A93D406.quest_desc: ["Hunt: Maledictus.\\n\\nStructure: Frosted Prison.\\n\\nTreat the prison as part of the encounter. Clear a safe approach before committing."]
+  quest.7FD4C2B27A93D406.title: "Cursed Eye — Maledictus"
+  task.03806077B9B7BAB1.title: "Mark as read"
+  task.05A67BB5A10A1E9E.title: "Mark as read"
+  task.087E33FD7954EBCB.title: "Mark as read"
+  task.0B14E844EE0043A6.title: "Mark as read"
+  task.0C0906A1095CF2BD.title: "Mark as read"
+  task.0CB32D0B4A11B3BE.title: "Mark as read"
+  task.0E460801ADE20A48.title: "Mark as read"
+  task.0ECBB5D1B097DBD9.title: "Mark as read"
+  task.10E50D977AD76A92.title: "Mark as read"
+  task.11B131754F604263.title: "Mark as read"
+  task.1259FE80801720BF.title: "Mark as read"
+  task.142F39A1F215D9AB.title: "Mark as read"
+  task.147AFE6568B6063D.title: "Mark as read"
+  task.14EF84594769BA52.title: "Mark as read"
+  task.1746D597D84FB42F.title: "Mark as read"
+  task.18AAB354529F3932.title: "Mark as read"
+  task.1A08273B2DAE27C3.title: "Mark as read"
+  task.1C6136480ECA4BED.title: "Mark as read"
+  task.268CBAB9DD9DE11C.title: "Mark as read"
+  task.2BB979625955408A.title: "Mark as read"
+  task.2F44C5142FD18595.title: "Mark as read"
+  task.2FDE8B1615ABD85D.title: "Mark as read"
+  task.336D856CACCB7643.title: "Mark as read"
+  task.37D2A61E02FC0128.title: "Mark as read"
+  task.3A256FC22AA03FA3.title: "Mark as read"
+  task.3A6E0BBD83D23FA0.title: "Mark as read"
+  task.414F81E280BEF14B.title: "Mark as read"
+  task.4A432647B2E14F79.title: "Mark as read"
+  task.4B94D727DAEA2BA3.title: "Mark as read"
+  task.4BC947A706CAC6F8.title: "Mark as read"
+  task.4DBA1B505BF52B3A.title: "Mark as read"
+  task.50989A147D70D6F3.title: "Mark as read"
+  task.531A856F2E28BBA2.title: "Mark as read"
+  task.54EB61B045FD2181.title: "Mark as read"
+  task.5656FEC590543C2E.title: "Mark as read"
+  task.5FF0EB2CE8AAEB76.title: "Mark as read"
+  task.601432B88102E447.title: "Mark as read"
+  task.601FE420FDCA4948.title: "Mark as read"
+  task.66F3A90AC83CEC79.title: "Mark as read"
+  task.691943148502DA78.title: "Mark as read"
+  task.6A7436AA63D0CC77.title: "Mark as read"
+  task.6D310C20FAB81104.title: "Mark as read"
+  task.70DEC881B36C70EB.title: "Mark as read"
+  task.7156FE4714D06797.title: "Mark as read"
+  task.735492E07039817F.title: "Mark as read"
+  task.7A059B627E416B33.title: "Mark as read"
+}

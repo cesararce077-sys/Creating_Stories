@@ -1,0 +1,97 @@
+{
+  default_hide_dependency_lines: false
+  filename: "mowzies_mobs"
+  group: "1D3BB10D1DC00FAD"
+  icon: { id: "mowziesmobs:wrought_axe" }
+  id: "0C8A1B841C790673"
+  order_index: 2
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "mowziesmobs:wrought_helmet" }
+      id: "3AE763173AC72CD0"
+      tasks: [
+        {
+          id: "147AFE6568B6063D"
+          type: "checkmark"
+        }
+      ]
+      x: -5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["3AE763173AC72CD0"]
+      icon: { id: "endrem:lost_eye" }
+      id: "1A658828B3F82626"
+      tasks: [
+        {
+          entity: "mowziesmobs:ferrous_wroughtnaut"
+          id: "4994438C7773C6E7"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -3.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["1A658828B3F82626"]
+      icon: { id: "mowziesmobs:wrought_axe" }
+      id: "74F2C234A6FD20A8"
+      tasks: [
+        {
+          id: "175221EBD17059F5"
+          item: { count: 1, id: "mowziesmobs:wrought_axe" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["3AE763173AC72CD0"]
+      icon: { id: "endrem:cold_eye" }
+      id: "7AE77B2A9671C855"
+      tasks: [
+        {
+          entity: "mowziesmobs:frostmaw"
+          id: "185D0FDFFD21BB7E"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -3.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["7AE77B2A9671C855"]
+      icon: { id: "mowziesmobs:ice_crystal" }
+      id: "51BCBABF19DCCD06"
+      tasks: [
+        {
+          id: "68E3AE435AB73D8F"
+          item: { count: 1, id: "mowziesmobs:ice_crystal" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["74F2C234A6FD20A8" "51BCBABF19DCCD06"]
+      icon: { id: "endrem:lost_eye" }
+      id: "5388F8FBAC83A509"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "3A6E0BBD83D23FA0"
+          type: "checkmark"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+  ]
+}

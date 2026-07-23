@@ -1,0 +1,123 @@
+{
+  default_hide_dependency_lines: false
+  filename: "aeronautics"
+  group: "1847F1FBAEB401B6"
+  icon: { id: "aeronautics:propeller_bearing" }
+  id: "767FEEFDD14A6BB9"
+  order_index: 1
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "aeronautics:aviators_goggles" }
+      id: "2EC3F888998E0E94"
+      tasks: [
+        {
+          id: "142F39A1F215D9AB"
+          type: "checkmark"
+        }
+      ]
+      x: -7.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["2EC3F888998E0E94"]
+      icon: { id: "aeronautics:white_envelope" }
+      id: "6EC030D87854492C"
+      tasks: [
+        {
+          id: "798AEE2EB9F049D1"
+          item: { count: 1, id: "aeronautics:white_envelope" }
+          type: "item"
+        }
+      ]
+      x: -5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["6EC030D87854492C"]
+      icon: { id: "aeronautics:wooden_propeller" }
+      id: "1EB3085373F4E503"
+      tasks: [
+        {
+          id: "0F676F15EEC08E70"
+          item: { count: 1, id: "aeronautics:wooden_propeller" }
+          type: "item"
+        }
+      ]
+      x: -3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["1EB3085373F4E503"]
+      icon: { id: "aeronautics:propeller_bearing" }
+      id: "2C8BC4181DFCCE32"
+      tasks: [
+        {
+          id: "51C5AD98C4A1A239"
+          item: { count: 1, id: "aeronautics:propeller_bearing" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["2C8BC4181DFCCE32"]
+      icon: { id: "aeronautics:adjustable_burner" }
+      id: "1EB2CEAD50A4501E"
+      tasks: [
+        {
+          id: "26B785D662786CBB"
+          item: { count: 1, id: "aeronautics:adjustable_burner" }
+          type: "item"
+        }
+      ]
+      x: 1.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["1EB2CEAD50A4501E"]
+      icon: { id: "aeronautics:gyroscopic_propeller_bearing" }
+      id: "6B3B31CB2B459EF7"
+      tasks: [
+        {
+          id: "33D38ACA788938FA"
+          item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+          type: "item"
+        }
+      ]
+      x: 3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["6B3B31CB2B459EF7"]
+      icon: { id: "aeronautics:smart_propeller" }
+      id: "6B17B709C348BBE1"
+      tasks: [
+        {
+          id: "39D2EA1ADF21DB9E"
+          item: { count: 1, id: "aeronautics:smart_propeller" }
+          type: "item"
+        }
+      ]
+      x: 5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["6B17B709C348BBE1"]
+      icon: { id: "aeronautics:pearlescent_levitite" }
+      id: "0D6A5674D909F573"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "05A67BB5A10A1E9E"
+          type: "checkmark"
+        }
+      ]
+      x: 7.0d
+      y: 0.0d
+    }
+  ]
+}

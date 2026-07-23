@@ -1,0 +1,109 @@
+{
+  default_hide_dependency_lines: false
+  filename: "deeper_darker"
+  group: "1D3BB10D1DC00FAD"
+  icon: { id: "deeperdarker:heart_of_the_deep" }
+  id: "4753725F679D84B6"
+  order_index: 4
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "minecraft:sculk_sensor" }
+      id: "69474E7868344A6F"
+      tasks: [
+        {
+          id: "691943148502DA78"
+          type: "checkmark"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["69474E7868344A6F"]
+      icon: { id: "deeperdarker:heart_of_the_deep" }
+      id: "5F540531A36DE71B"
+      tasks: [
+        {
+          id: "20E0C19179F76308"
+          item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["5F540531A36DE71B"]
+      icon: { id: "deeperdarker:sculk_bone" }
+      id: "3308F91046EF6007"
+      tasks: [
+        {
+          id: "588CDDD6EC5E3ECA"
+          item: { count: 1, id: "deeperdarker:sculk_bone" }
+          type: "item"
+        }
+      ]
+      x: -2.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["5F540531A36DE71B"]
+      icon: { id: "deeperdarker:soul_crystal" }
+      id: "5BEFA48E5095AB71"
+      tasks: [
+        {
+          id: "5766E285F31BA9CE"
+          item: { count: 1, id: "deeperdarker:soul_crystal" }
+          type: "item"
+        }
+      ]
+      x: -2.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["3308F91046EF6007" "5BEFA48E5095AB71"]
+      icon: { id: "deeperdarker:heart_of_the_deep" }
+      id: "0F2338472C2F2DC3"
+      tasks: [
+        {
+          id: "18AAB354529F3932"
+          type: "checkmark"
+        }
+      ]
+      x: 1.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["0F2338472C2F2DC3"]
+      icon: { id: "endrem:cryptic_eye" }
+      id: "4F0FCB708EF96D63"
+      tasks: [
+        {
+          entity: "deeperdarker:stalker"
+          id: "72484625F8798214"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["4F0FCB708EF96D63"]
+      icon: { id: "endrem:cryptic_eye" }
+      id: "4DBE7439AC57DC86"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "03806077B9B7BAB1"
+          type: "checkmark"
+        }
+      ]
+      x: 5.0d
+      y: 0.0d
+    }
+  ]
+}

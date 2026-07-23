@@ -1,0 +1,255 @@
+{
+  default_hide_dependency_lines: false
+  filename: "eyes_of_end"
+  group: "0485BE44AE37FD25"
+  icon: { id: "minecraft:ender_eye" }
+  id: "3CC7398A9BF36997"
+  order_index: 2
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "endrem:black_eye" }
+      id: "10F3BB384EDD8AEB"
+      tasks: [
+        {
+          entity: "alexscaves:hullbreaker"
+          id: "41D323DEB47A111C"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 0.0d
+      y: -8.0d
+    }
+    {
+      icon: { id: "endrem:cold_eye" }
+      id: "32CC137218763902"
+      tasks: [
+        {
+          entity: "mowziesmobs:frostmaw"
+          id: "55F067484858C6BB"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 3.1d
+      y: -7.4d
+    }
+    {
+      icon: { id: "endrem:corrupted_eye" }
+      id: "599F8820A8616A2C"
+      tasks: [
+        {
+          entity: "irons_spellbooks:dead_king"
+          id: "0EE011C9223A9F43"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 5.7d
+      y: -5.7d
+    }
+    {
+      icon: { id: "endrem:cryptic_eye" }
+      id: "575D4F002F94D878"
+      tasks: [
+        {
+          entity: "deeperdarker:stalker"
+          id: "32B990C9458086CF"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 7.4d
+      y: -3.1d
+    }
+    {
+      icon: { id: "endrem:cursed_eye" }
+      id: "7FD4C2B27A93D406"
+      tasks: [
+        {
+          entity: "cataclysm:maledictus"
+          id: "77DAE7513254BF73"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 8.0d
+      y: 0.0d
+    }
+    {
+      icon: { id: "endrem:evil_eye" }
+      id: "5BA2C832DFE94B62"
+      tasks: [
+        {
+          entity: "iceandfire:gorgon"
+          id: "79532765E4C64F27"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 7.4d
+      y: 3.1d
+    }
+    {
+      icon: { id: "endrem:exotic_eye" }
+      id: "63B692F359F9728A"
+      tasks: [
+        {
+          entity: "cataclysm:the_leviathan"
+          id: "65187E398855438B"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 5.7d
+      y: 5.7d
+    }
+    {
+      icon: { id: "endrem:guardian_eye" }
+      id: "262C8DBDCDB59A27"
+      tasks: [
+        {
+          entity: "minecraft:elder_guardian"
+          id: "7EBF3286BE23BA8E"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 3.1d
+      y: 7.4d
+    }
+    {
+      icon: { id: "endrem:lost_eye" }
+      id: "491D43B596ED36D6"
+      tasks: [
+        {
+          entity: "mowziesmobs:ferrous_wroughtnaut"
+          id: "59E01B0B58E98D3F"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 0.0d
+      y: 8.0d
+    }
+    {
+      icon: { id: "endrem:magical_eye" }
+      id: "340EDDFF74496CE2"
+      tasks: [
+        {
+          entity: "irons_spellbooks:archevoker"
+          id: "0113E88DEEC23135"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -3.1d
+      y: 7.4d
+    }
+    {
+      icon: { id: "endrem:nether_eye" }
+      id: "12A94ABFCAE71002"
+      tasks: [
+        {
+          entity: "cataclysm:ignis"
+          id: "46EC5DB9D6BA09AB"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -5.7d
+      y: 5.7d
+    }
+    {
+      icon: { id: "endrem:old_eye" }
+      id: "29732D1BEC0B39F1"
+      tasks: [
+        {
+          entity: "cataclysm:ancient_remnant"
+          id: "7CFB5B968F7B5A9A"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -7.4d
+      y: 3.1d
+    }
+    {
+      icon: { id: "endrem:rogue_eye" }
+      id: "20516E28A6490E2A"
+      tasks: [
+        {
+          entity: "iceandfire:cyclops"
+          id: "7E1DA3D5E273BE55"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -8.0d
+      y: 0.0d
+    }
+    {
+      icon: { id: "endrem:undead_eye" }
+      id: "7AAB016003C2082D"
+      tasks: [
+        {
+          entity: "iceandfire:dread_lich"
+          id: "3C9D03705A925654"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -7.4d
+      y: -3.1d
+    }
+    {
+      icon: { id: "endrem:witch_eye" }
+      id: "33DCA866A2FD09CF"
+      tasks: [
+        {
+          entity: "alexscaves:licowitch"
+          id: "16D29B205DEF1D74"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -5.7d
+      y: -5.7d
+    }
+    {
+      icon: { id: "endrem:wither_eye" }
+      id: "70987EA89729DB47"
+      tasks: [
+        {
+          entity: "minecraft:wither"
+          id: "156297420CCF902E"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: -3.1d
+      y: -7.4d
+    }
+    {
+      dependencies: ["10F3BB384EDD8AEB" "32CC137218763902" "599F8820A8616A2C" "575D4F002F94D878" "7FD4C2B27A93D406" "5BA2C832DFE94B62" "63B692F359F9728A" "262C8DBDCDB59A27" "491D43B596ED36D6" "340EDDFF74496CE2" "12A94ABFCAE71002" "29732D1BEC0B39F1" "20516E28A6490E2A" "7AAB016003C2082D" "33DCA866A2FD09CF" "70987EA89729DB47"]
+      icon: { id: "minecraft:dragon_head" }
+      id: "0EA62200B306C399"
+      min_required_dependencies: 12
+      min_width: 340
+      shape: "diamond"
+      size: 2.2d
+      tasks: [
+        {
+          entity: "minecraft:ender_dragon"
+          id: "7D8090537F23E230"
+          type: "kill"
+          value: 1L
+        }
+      ]
+      x: 0.0d
+      y: 0.0d
+    }
+  ]
+}

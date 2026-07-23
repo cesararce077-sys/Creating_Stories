@@ -1,0 +1,7 @@
+Creating Stories 0.5.0
+
+- Added the alpha Expedition Journal through FTB Quests, accessible from the inventory, with 18 chapters and 136 field notes covering the campaign and core mods.
+- Added a concise Welcome chapter with once-per-player Satchel, basic Backpack, and valid Antique Atlas rewards.
+- Added the Eyes of End hunt: sixteen boss routes converge on the Ender Dragon, with twelve distinct Eyes required to complete the gate.
+- Added progression maps for Create, Aeronautics, Truly Modular equipment, unified Ars and Iron's magic, Malum, Ice and Fire, and the pack's other major exploration systems.
+- Corrected FTB Quests 2101.1.27 localization, signed ID stability, chapter ordering, literal ampersand formatting, and Atlas compatibility.

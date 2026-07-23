@@ -1,0 +1,122 @@
+{
+  default_hide_dependency_lines: false
+  filename: "cataclysm"
+  group: "1D3BB10D1DC00FAD"
+  icon: { id: "cataclysm:mechanical_fusion_anvil" }
+  id: "5D42A81CB25FA4C4"
+  order_index: 1
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "cataclysm:monstrous_horn" }
+      id: "4878BD5DD40582DD"
+      tasks: [
+        {
+          id: "0CB32D0B4A11B3BE"
+          type: "checkmark"
+        }
+      ]
+      x: -6.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["4878BD5DD40582DD"]
+      icon: { id: "cataclysm:altar_of_fire" }
+      id: "0BF17C5C1206EBC7"
+      tasks: [
+        {
+          id: "2977CD8F499BFB5E"
+          item: { count: 1, id: "cataclysm:altar_of_fire" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["4878BD5DD40582DD"]
+      icon: { id: "cataclysm:altar_of_abyss" }
+      id: "6A070FBDE512768D"
+      tasks: [
+        {
+          id: "28D05728CFA1DAEE"
+          item: { count: 1, id: "cataclysm:altar_of_abyss" }
+          type: "item"
+        }
+      ]
+      x: -4.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["0BF17C5C1206EBC7" "6A070FBDE512768D"]
+      icon: { id: "cataclysm:altar_of_void" }
+      id: "2D603BE3CCCB7725"
+      tasks: [
+        {
+          id: "410E560B14EA9124"
+          item: { count: 1, id: "cataclysm:altar_of_void" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: -1.0d
+    }
+    {
+      dependencies: ["0BF17C5C1206EBC7" "6A070FBDE512768D"]
+      icon: { id: "cataclysm:altar_of_amethyst" }
+      id: "13CA07E3239A194C"
+      tasks: [
+        {
+          id: "530AFE2E9778E5DD"
+          item: { count: 1, id: "cataclysm:altar_of_amethyst" }
+          type: "item"
+        }
+      ]
+      x: -1.0d
+      y: 1.0d
+    }
+    {
+      dependencies: ["2D603BE3CCCB7725" "13CA07E3239A194C"]
+      icon: { id: "cataclysm:mechanical_fusion_anvil" }
+      id: "27FE2F589398C6D7"
+      tasks: [
+        {
+          id: "0F68A78E365B898C"
+          item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+          type: "item"
+        }
+      ]
+      x: 2.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["27FE2F589398C6D7"]
+      icon: { id: "endrem:cursed_eye" }
+      id: "116A8A66E58FEB15"
+      tasks: [
+        {
+          id: "4BC947A706CAC6F8"
+          type: "checkmark"
+        }
+      ]
+      x: 4.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["116A8A66E58FEB15"]
+      icon: { id: "cataclysm:mechanical_fusion_anvil" }
+      id: "20044CE4F30F1640"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "1A08273B2DAE27C3"
+          type: "checkmark"
+        }
+      ]
+      x: 6.0d
+      y: 0.0d
+    }
+  ]
+}

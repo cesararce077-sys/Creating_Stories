@@ -1,0 +1,93 @@
+{
+  default_hide_dependency_lines: false
+  filename: "ancient_knowledge"
+  group: "168218DA9FC3751D"
+  icon: { id: "immersiveenchanting:ancient_book" }
+  id: "458035548E9985F8"
+  order_index: 1
+  progression_mode: "flexible"
+  quest_links: []
+  quests: [
+    {
+      icon: { id: "minecraft:enchanting_table" }
+      id: "64FF5C8B7505A4FD"
+      tasks: [
+        {
+          id: "2BB979625955408A"
+          type: "checkmark"
+        }
+      ]
+      x: -5.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["64FF5C8B7505A4FD"]
+      icon: { id: "immersiveenchanting:ancient_book" }
+      id: "37E524E41DE2F956"
+      tasks: [
+        {
+          id: "64FD4D9C6AB3CC8B"
+          item: { count: 1, id: "immersiveenchanting:ancient_book" }
+          type: "item"
+        }
+      ]
+      x: -3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["37E524E41DE2F956"]
+      icon: { id: "create:mechanical_crafter" }
+      id: "36639624A32C7F7C"
+      tasks: [
+        {
+          id: "6A7436AA63D0CC77"
+          type: "checkmark"
+        }
+      ]
+      x: -1.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["36639624A32C7F7C"]
+      icon: { id: "betterarcheology:archeology_table" }
+      id: "0726DF8850E28E7F"
+      min_width: 340
+      tasks: [
+        {
+          id: "6D310C20FAB81104"
+          type: "checkmark"
+        }
+      ]
+      x: 1.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["0726DF8850E28E7F"]
+      icon: { id: "minecraft:chiseled_bookshelf" }
+      id: "31D39803962CC13E"
+      tasks: [
+        {
+          id: "66F3A90AC83CEC79"
+          type: "checkmark"
+        }
+      ]
+      x: 3.0d
+      y: 0.0d
+    }
+    {
+      dependencies: ["31D39803962CC13E"]
+      icon: { id: "immersiveenchanting:ancient_book" }
+      id: "69C5647EB4184660"
+      shape: "diamond"
+      size: 1.5d
+      tasks: [
+        {
+          id: "1746D597D84FB42F"
+          type: "checkmark"
+        }
+      ]
+      x: 5.0d
+      y: 0.0d
+    }
+  ]
+}
